@@ -1,6 +1,6 @@
 ---
 course_id: SAC01
-artifact_id: RUBRICS-SAC01-v1.4
+artifact_id: RUBRICS-SAC01
 artifact_type: assessment_rubrics
 status: DRAFT_FOR_REVIEW
 language: es
