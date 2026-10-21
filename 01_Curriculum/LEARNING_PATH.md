@@ -4,7 +4,6 @@ artifact_id: LP-SAC01
 artifact_type: learning_path
 status: STRUCTURE_APPROVED_WITH_DELIVERY_GATES
 language: es
-format_standard: UT-LP-1.0
 revision_scope: CURRICULAR_STRUCTURE_APPROVAL_WITH_DELIVERY_GATES
 change_proposal: SAC01-CP-014
 ---
