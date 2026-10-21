@@ -57,7 +57,7 @@ Los resultados de salida están especificados por módulo en la tabla de progres
 - **Subclase `SCL04.05.01.01`:** unidad específica de contenido dentro de una clase. Se crea para hacer explícito el alcance, no necesariamente para impartirse como una sesión independiente.
 - Los antiguos `Subtema x.y.z` pasan a ser subclases numeradas. Los antiguos títulos `Clase x.y` se conservan como referencia histórica en el registro de migración.
 - El índice usa el término **clase** para una unidad de enseñanza planificable. Meta de diseño: **60–90 minutos por clase**, ajustable según el plan didáctico. Si una clase necesita más de tres subclases conceptualmente distintas, se divide o se diseña explícitamente como secuencia; no se sobrecarga por mantener una sola sesión.
-- Las subclases identifican qué debe cubrirse; las actividades, criterios de evaluación y evidencias se definen en documentos de clase separados. La sección 10 propone capítulos y subcapítulos por clase; cada plan debe cotejarlos con la edición disponible y concretar las páginas antes de impartirla.
+- Las subclases identifican qué debe cubrirse; las actividades, criterios de evaluación y evidencias se definen en documentos de clase separados. Al diseñar cada clase, es obligatorio consultar las fuentes asignadas en la sección 10, revisar el contenido pertinente y cotejar título, edición, capítulo/subcapítulo y páginas con la copia disponible. Si no se puede verificar una referencia o no cubre el objetivo, se registra la limitación y no se inventan páginas ni cobertura. Las fuentes son obligatorias para fundamentar el diseño, no lectura obligatoria para el estudiante salvo que el plan lo indique explícitamente.
 - Las referencias cruzadas indican aplicación o profundización, no repetición completa. El mismo concepto puede reaparecer con un propósito distinto, que debe quedar expresado en la frontera del submódulo.
 
 ### Fronteras críticas entre módulos
@@ -99,7 +99,7 @@ La progresión de competencias sigue **identificar → explicar → justificar �
 
 ## 5. Índice detallado de clases
 
-La jerarquía y los IDs se conservan exactamente en el índice. El resultado específico, la actividad y los criterios/evidencias se definen en el plan de cada clase. La sección 10 incluye capítulos y subcapítulos propuestos para orientar la preparación; el plan debe verificarlos antes de impartir la clase. Este índice no certifica dominio.
+La jerarquía y los IDs se conservan exactamente en el índice. Cada clase nueva o revisada debe documentarse con los nueve apartados obligatorios de la [plantilla de plan de clase](../Classes/CLASS_PLAN_TEMPLATE.md). Al diseñarla, se consultan y verifican las fuentes de la sección 10 conforme a la regla de la sección 3; sus referencias son orientación para el diseño y no lectura obligatoria del estudiante salvo asignación explícita en el plan. Este índice no certifica dominio.
 
 ### Módulo M01 — Pensamiento arquitectónico y fundamentos
 
@@ -860,7 +860,7 @@ La ruta no establece una metodología global de tutoría como sección autónoma
 
 ## 10. Materiales de referencia
 
-Las lecturas son propuestas de apoyo. Cada plan de clase confirma la pertinencia de capítulos y secciones antes de impartirse.
+Las fuentes de esta tabla deben consultarse durante el diseño de la clase y cotejarse con la edición disponible. El plan registra los capítulos/secciones y páginas efectivamente revisados, su relación con el objetivo y toda limitación o referencia pendiente. Esta consulta fundamenta el diseño; no obliga al estudiante a leer la fuente salvo que el plan lo asigne expresamente. Usa los nueve apartados obligatorios de la [plantilla de plan de clase](../Classes/CLASS_PLAN_TEMPLATE.md).
 
 | Módulo | Clase | Fuentes y enlaces | Capítulos o secciones |
 | --- | --- | --- | --- |
