@@ -1,21 +1,17 @@
 ---
 course_id: SAC01
-course_version: 1.3
-route_version: 1.3
-version: 1.4
 artifact_id: RUBRICS-SAC01-v1.4
 artifact_type: assessment_rubrics
 status: DRAFT_FOR_REVIEW
 language: es
-supersedes: 1.3
 change_proposal: SAC01-CP-013
 ---
 
-# Rúbricas preliminares para evidencias — Ruta v1.3
+# Rúbricas preliminares para evidencias
 
 ## Estado y uso
 
-Borrador de trabajo derivado de los 12 planes curriculares y de los niveles de la Matriz de Competencias v4.0.2. No constituye una rúbrica aprobada. Los umbrales propuestos permiten revisión, pero deben validarse contra la matriz y con una aplicación piloto. No se ha evaluado ninguna evidencia del estudiante con este documento.
+Borrador de trabajo derivado de los 12 planes curriculares y de los niveles de la Matriz de Competencias. No constituye una rúbrica aprobada. Los umbrales propuestos permiten revisión, pero deben validarse contra la matriz y con una aplicación piloto. No se ha evaluado ninguna evidencia del estudiante con este documento.
 
 ## Escala común propuesta
 
@@ -148,8 +144,8 @@ Los criterios locales de cada rúbrica son los criterios puntuables. Los código
 | Evidencia | Competencia / estado | Niveles candidatos | Ajuste obligatorio para evaluación |
 |---|---|---|---|
 | EV-CL01.01.01-01 | C01, propuesta | IDENTIFY, EXPLAIN; APPLY si el caso es nuevo | Evaluar definición, relaciones/propiedades y propósito; no exigir justificación de alternativas. |
-| EV-CL01.02.01-01 | C01 primaria propuesta | EXPLAIN; APPLY si hay transferencia | El plan v1.2 corregido declara C01, conforme a esta matriz de trazabilidad. No usar esta evidencia para certificar C02. |
-| EV-CL01.02.02-01 | C01 primaria propuesta | EXPLAIN; APPLY si hay transferencia | El plan v1.2 corregido declara C01, conforme a esta matriz de trazabilidad. La elección de representación es introductoria y no certifica C06. |
+| EV-CL01.02.01-01 | C01 primaria propuesta | EXPLAIN; APPLY si hay transferencia | El plan corregido declara C01, conforme a esta matriz de trazabilidad. No usar esta evidencia para certificar C02. |
+| EV-CL01.02.02-01 | C01 primaria propuesta | EXPLAIN; APPLY si hay transferencia | El plan corregido declara C01, conforme a esta matriz de trazabilidad. La elección de representación es introductoria y no certifica C06. |
 | EV-CL01.03.01-01 | C02, propuesta | IDENTIFY, EXPLAIN, APPLY | Usar un caso nuevo; aceptar que una clasificación dependa del contexto si la justificación es defendible. |
 | EV-CL01.04.01-01 | C02 condicionada a ejecutar el criterio de clasificación de impacto | IDENTIFY, EXPLAIN; APPLY en caso nuevo | La matriz de stakeholders por sí sola no demuestra C02. Es obligatorio clasificar una implicación como arquitectónica o local de diseño/implementación y justificar su alcance. Si no se ejecuta, marcar PARTIAL_ALIGNMENT. |
 | EV-CL01.05.01-01 | C02 como introducción; no certificar C05 | IDENTIFY, EXPLAIN | Mantener el ejercicio breve. No puntuar JUSTIFY ni comparación sistemática. Registrar incertidumbre sin exigir ADR completo. |
@@ -171,14 +167,14 @@ Los criterios locales de cada rúbrica son los criterios puntuables. Los código
 
 ## Pendientes antes de aprobación
 
-- Los planes v1.2 resuelven el mapeo primario de CL01.02.02 a C01 y hacen explícito en CL01.04.01 el criterio de clasificación de impacto requerido para sostener C02. Ambos siguen en borrador hasta revisión curricular.
-- Cotejar cada criterio con la matriz de competencias cuando se apruebe formalmente; la matriz v4.0.2 sigue en borrador.
-- Confirmar aprobación curricular de la ruta v1.3; `course_id: SAC01` ya está establecido para artefactos nuevos.
+- Los planes resuelven el mapeo primario de CL01.02.02 a C01 y hacen explícito en CL01.04.01 el criterio de clasificación de impacto requerido para sostener C02. Ambos siguen en borrador hasta revisión curricular.
+- Cotejar cada criterio con la matriz de competencias cuando se apruebe formalmente; la matriz de competencias sigue en borrador.
+- Confirmar aprobación curricular de la ruta; `course_id: SAC01` ya está establecido para artefactos nuevos.
 - Revisar los planes de clase y las lecturas definitivas.
 - Pilotar la rúbrica con una evidencia de ejemplo y revisar consistencia entre evaluadores.
-- Registrar versión, fecha y responsable de aprobación.
+- Registrar fecha y responsable de aprobación.
 
 
 ## Actualización de identidad del curso — 2026-10-20
 
-**Registro histórico de identidad (2026-10-20):** una versión anterior adoptó `SWARCH-001` conforme a la decisión archivada `DECISION_COURSE_ID_SWARCH-001_v1.0.md`. Una instrucción explícita posterior estableció `SAC01` para los artefactos nuevos. El identificador histórico no se borra ni se usa como identidad vigente.
+**Registro histórico de identidad (2026-10-20):** una decisión anterior adoptó `SWARCH-001`. Posteriormente se estableció `SAC01` para los artefactos nuevos. El identificador histórico no se usa como identidad vigente.
