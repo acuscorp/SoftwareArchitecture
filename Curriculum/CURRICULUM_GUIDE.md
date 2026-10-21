@@ -857,6 +857,44 @@ La ruta no establece una metodología global de tutoría como sección autónoma
 
 El mapeo de fuentes y capítulos por clase está en la [ruta tabular](LEARNING_PATH.md). Esta guía conserva las fuentes orientativas por módulo y los índices bibliográficos, sin duplicar el mapeo clase por clase.
 
+### Fuentes principales por módulo
+
+La asignación siguiente procede del mapa de competencias de la ruta base; orienta la selección de material y no sustituye las referencias verificadas por clase.
+
+| Módulo | Fuentes principales previstas |
+|---|---|
+| 1. Fundamentos | Software Architecture in Practice (SAIP), Just Enough Software Architecture, UML Distilled |
+| 2. Requisitos y decisiones | SAIP, Just Enough Software Architecture, Software Architecture: The Hard Parts, Mastering API Architecture, DDD |
+| 3. Modelado y comunicación | UML and OO Design Foundations, UML Distilled, SAIP, Design Patterns |
+| 4. Modularidad y evolución del código | SAIP, Software Architecture: The Hard Parts, Refactoring, Code Complete, Street Coder, Effective Java |
+| 5. Patrones | Design Patterns, Effective Java, Refactoring |
+| 6. Dominio y límites | Implementing Domain-Driven Design, SAIP, Software Architecture: The Hard Parts, Mastering API Architecture |
+| 7. Sistemas distribuidos | SAIP, Software Architecture: The Hard Parts, Implementing Domain-Driven Design, Street Coder, Effective Java |
+| 8. Estilos y descomposición | SAIP, Software Architecture: The Hard Parts, Implementing Domain-Driven Design, Mastering API Architecture |
+| 9. APIs | Mastering API Architecture, SAIP, Implementing Domain-Driven Design, Effective Java |
+| 10. Datos | Software Architecture: The Hard Parts, Implementing Domain-Driven Design, SAIP, Mastering API Architecture |
+| 11. Seguridad y operación | Mastering API Architecture, SAIP, Street Coder, Effective Java |
+| 12. Cloud y evolución | SAIP, Mastering API Architecture, Software Architecture: The Hard Parts, Street Coder |
+| 13. AI Engineering | AI Engineering, SAIP, Mastering API Architecture, Software Architecture: The Hard Parts |
+| 14. Evaluación | SAIP, Software Architecture: The Hard Parts, Just Enough Software Architecture, Mastering API Architecture |
+| 15. Práctica profesional | SAIP, Software Architecture: The Hard Parts, Mastering API Architecture, Street Coder |
+
+### Índices bibliográficos de las fuentes propuestas
+
+Los enlaces llevan a índices o fichas editoriales/autorales públicos. No se publican identificadores privados de Drive ni copias de libros.
+
+| Código | Libro y edición consultada | Índice |
+|---|---|---|
+| DSA2 | *Designing Software Architectures: A Practical Approach*, 2.ª ed. (Humberto Cervantes y Rick Kazman, 2024) | [O’Reilly](https://www.oreilly.com/library/view/designing-software-architectures/9780138108069/toc.xhtml) |
+| HARD | *Software Architecture: The Hard Parts* (Neal Ford, Mark Richards, Pramod Sadalage y Zhamak Dehghani, 2021) | [O’Reilly](https://www.oreilly.com/library/view/software-architecture-the/9781492086888/) |
+| JESA | *Just Enough Software Architecture: A Risk-Driven Approach* (George Fairbanks, 2010) | [Índice del autor](https://www.georgefairbanks.com/book/) |
+| CC2 | *Code Complete*, 2.ª ed. (Steve McConnell, 2004) | [O’Reilly](https://www.oreilly.com/library/view/code-complete-2nd/0735619670/toc.html) |
+| OOSE3 | *Object-Oriented Software Engineering: Using UML, Patterns, and Java*, 3.ª ed. (Bernd Bruegge y Allen H. Dutoit, 2010) | [InformIT/Pearson](https://www.informit.com/store/object-oriented-software-engineering-using-uml-patterns-9780136061250) |
+| TP3 | *Think Python: How to Think Like a Computer Scientist*, 3.ª ed. (Allen B. Downey, 2024) | [O’Reilly](https://www.oreilly.com/library/view/think-python-3rd/9781098155421/) |
+| MPDP3 | *Mastering Python Design Patterns*, 3.ª ed. (Kamon Ayeva y Sakis Kasampalis, 2024) | [Packt](https://www.packtpub.com/en-us/product/mastering-python-design-patterns-9781837639618) |
+| EPP4 | *Expert Python Programming*, 4.ª ed. (Michał Jaworski, Tarek Ziadé y Gastón Hillar, 2021) | [Packt](https://www.packtpub.com/en-gb/product/expert-python-programming-9781801071109) |
+| PDL | *Practical Deep Learning for Cloud, Mobile, and Edge* (Anirudh Koul, Siddha Ganju y Meher Kasam, 2019) | [O’Reilly](https://www.oreilly.com/library/view/practical-deep-learning/9781492034858/) |
+
 
 
 
