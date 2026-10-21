@@ -1,6 +1,6 @@
 ---
 course_id: SAC01
-artifact_id: TRACE-SAC01-v1.4
+artifact_id: TRACE-SAC01
 artifact_type: competency_evidence_traceability
 status: DRAFT_FOR_REVIEW
 language: es
