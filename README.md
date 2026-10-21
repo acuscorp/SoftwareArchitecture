@@ -5,7 +5,8 @@ Repositorio del curso de Arquitectura de Software. La organización por carpetas
 ## Documentos canónicos
 
 - [Matriz maestra de competencias](Curriculum/MATRIZ_COMPETENCIAS.md): fuente maestra para **Software Architecture** y **AI Solution Architecture**. Su estado permanece **DRAFT — PENDING_REVIEW**; ser la fuente maestra no implica que esté aprobada.
-- [Ruta curricular](Curriculum/LEARNING_PATH.md): mapa aprobado para planificación, con validación obligatoria de cada clase antes de impartirla.
+- [Ruta curricular](Curriculum/LEARNING_PATH.md): tabla de consulta por clase con fuentes y capítulos.
+- [Guía curricular complementaria](Curriculum/CURRICULUM_GUIDE.md): propósito, jerarquía, progresión, criterios, reglas y fuentes generales del currículo.
 - [Dictamen curricular](Validation/ROUTE_REVIEW_AND_DECISION.md): decisión sobre la estructura de la ruta y sus condiciones de entrega.
 - [CL01.02.02 — Conectar estructura, runtime y vistas introductorias](Classes/M01%20-%20Pensamiento%20arquitect%C3%B3nico%20y%20fundamentos/CL01.02.02%20-%20Conectar%20estructura,%20runtime%20y%20vistas%20introductorias.md) y [CL01.04.01 — Contexto y participantes](Classes/M01%20-%20Pensamiento%20arquitect%C3%B3nico%20y%20fundamentos/CL01.04.01%20-%20Contexto%20y%20participantes.md): ambos planes siguen como borradores para revisión.
 - [Trazabilidad de evidencias](Assessment/REGISTRO_TRAZABILIDAD_EVIDENCIAS.md) y [rúbricas](Assessment/RUBRICAS_EVIDENCIAS_RUTA.md): conservan su estado de revisión declarado en cada archivo.
@@ -15,7 +16,7 @@ Repositorio del curso de Arquitectura de Software. La organización por carpetas
 
 | Carpeta | Contenido |
 |---|---|
-| `Curriculum/` | Matriz maestra y ruta curricular |
+| `Curriculum/` | Matriz maestra, ruta tabular y guía curricular complementaria |
 | `Classes/` | Planes en carpetas `MXX - Título del módulo`, con archivos `CL... - Título de la clase.md` |
 | `Assessment/` | Trazabilidad y rúbricas de evaluación |
 | `Progress/` | Estado individual del curso |
