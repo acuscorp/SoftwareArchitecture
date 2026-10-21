@@ -5,11 +5,11 @@
 ## Índice
 
 1. [Propósito y perfil de entrada](#1-proposito-y-perfil-de-entrada)
-2. [Instrucciones de diseño y organización](#2-jerarquia-curricular-y-reglas-de-organizacion)
-3. [Mapa de módulos, prerrequisitos y resultados](#3-mapa-de-modulos-prerrequisitos-y-evidencias)
-4. [Índice de clases, alcances y fronteras](#4-indice-detallado-de-clases)
-5. [Prerrequisitos y progresión](#5-prerrequisitos-y-reglas-de-avance)
-6. [Evidencia y evaluación](#6-evaluacion-y-evidencia-de-dominio)
+2. [Instrucciones de diseño y organización](#2-instrucciones-de-diseno-y-organizacion)
+3. [Mapa de módulos, prerrequisitos y resultados](#3-mapa-de-modulos-prerrequisitos-y-resultados)
+4. [Índice de clases, alcances y fronteras](#4-indice-de-clases-alcances-y-fronteras)
+5. [Prerrequisitos y progresión](#5-prerrequisitos-y-progresion)
+6. [Evidencia y evaluación](#6-evidencia-y-evaluacion)
 7. [Limitaciones y condiciones de revisión](#7-limitaciones-y-condiciones-de-revision)
 
 ## 1. Propósito y perfil de entrada
