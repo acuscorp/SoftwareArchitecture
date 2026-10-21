@@ -21,7 +21,7 @@ Por instrucción explícita del estudiante, este curso comenzará desde cero. Lo
 
 - **Curso:** Arquitectura de Software
 - **ID:** `SAC01`
-- **Ruta curricular activa:** `01_Curriculum/LEARNING_PATH.md`
+- **Ruta curricular activa:** [`LEARNING_PATH.md`](../Curriculum/LEARNING_PATH.md)
 - **Estado del curso:** `NOT_STARTED`
 - **Punto de partida:** cero
 - **Diagnóstico inicial:** `NOT_STARTED`
@@ -41,7 +41,7 @@ Por instrucción explícita del estudiante, este curso comenzará desde cero. Lo
 
 ## Compatibilidad y condiciones de entrega
 
-La ruta curricular está aprobada como mapa curricular para planificación, con puertas obligatorias de validación por clase. Esto no significa que todos los planes, lecturas o rúbricas estén listos para impartirse. Antes de cada clase, su plan y materiales deberán pasar la revisión y validación correspondientes.
+La ruta curricular está aprobada como mapa curricular para planificación, con puertas obligatorias de validación por clase. La [matriz maestra de competencias](../Curriculum/MATRIZ_COMPETENCIAS.md) sigue `DRAFT — PENDING_REVIEW` y es la fuente de referencia para las competencias. Esto no significa que todos los planes, lecturas o rúbricas estén listos para impartirse. Antes de cada clase, su plan y materiales deberán pasar la revisión y validación correspondientes.
 
 ## Preservación de registros
 

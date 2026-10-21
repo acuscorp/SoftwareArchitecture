@@ -11,7 +11,7 @@ change_proposal: SAC01-CP-013
 
 ## 1. Estado y límites
 
-Este registro resuelve los desajustes plan–registro identificados en la auditoría y conserva los IDs `EV-*` y los antecedentes de evidencia. El progreso histórico permanece separado; la ruta curricular está aprobada como mapa de planificación, mientras los planes de clase requieren revisión propia. Las filas `PENDING_REVIEW` o `PARTIAL_ALIGNMENT` no son vínculos confirmados. No se evalúa ni modifica el progreso del estudiante.
+Este registro resuelve los desajustes plan–registro identificados en la auditoría y conserva los IDs `EV-*` y los antecedentes de evidencia. El progreso histórico permanece separado; la ruta curricular está aprobada como mapa de planificación, mientras los planes de clase requieren revisión propia. Las filas `PENDING_REVIEW` o `PARTIAL_ALIGNMENT` no son vínculos confirmados. La [matriz maestra de competencias](../Curriculum/MATRIZ_COMPETENCIAS.md) sigue `DRAFT — PENDING_REVIEW`, por lo que las asignaciones continúan sujetas a revisión. No se evalúa ni modifica el progreso del estudiante.
 
 ## 2. Convención de IDs
 

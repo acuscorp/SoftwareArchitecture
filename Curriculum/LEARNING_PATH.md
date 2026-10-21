@@ -24,7 +24,7 @@ change_proposal: SAC01-CP-014
 9. [Metodología de tutoría](#9-metodologia-de-tutoria)
 10. [Materiales de referencia](#10-materiales-de-referencia)
 11. [Registro y seguimiento del progreso](#11-registro-y-seguimiento-del-progreso)
-12. [Compatibilidad, migración y decisiones pendientes](#12-compatibilidad-migracion-y-decisiones-pendientes)
+12. [Criterios vigentes y pendientes](#12-criterios-vigentes-y-pendientes)
 
 
 ## 1. Propósito y perfil de entrada
@@ -33,6 +33,7 @@ change_proposal: SAC01-CP-014
 
 - `course_id`: `SAC01`
 - Este identificador establece la identidad del curso; no implica por sí solo aprobación curricular ni migración del progreso.
+- La [matriz maestra de competencias](MATRIZ_COMPETENCIAS.md) es la fuente de referencia para Software Architecture y AI Solution Architecture. Conserva el estado `DRAFT — PENDING_REVIEW`; este vínculo no la aprueba.
 
 ### Propósito y alcance
 
@@ -883,7 +884,7 @@ La asignación siguiente procede del mapa de competencias de la ruta base. Es un
 
 ## 11. Registro y seguimiento del progreso
 
-El progreso individual se registra en el `COURSE_STATE` y en las evidencias asociadas, no en esta ruta curricular. La normalización de formato no cambia estados, competencias validadas ni posición académica del estudiante.
+El progreso individual se registra en el [`COURSE_STATE`](../Progress/COURSE_STATE.md) y en las evidencias asociadas, no en esta ruta curricular. La normalización de formato no cambia estados, competencias validadas ni posición académica del estudiante.
 
 ## 12. Criterios vigentes y pendientes
 
@@ -891,6 +892,6 @@ El progreso individual se registra en el `COURSE_STATE` y en las evidencias asoc
 - Los prerrequisitos incluyen entradas observables mínimas y resultados esperados por módulo; no equivalen a declarar dominio del estudiante.
 - Las fuentes principales están asignadas por módulo. Las lecturas y secciones específicas deben verificarse al preparar cada clase.
 - Los planes de clase, lecturas, ejercicios y evaluaciones se mantienen en artefactos separados y requieren revisión propia.
-- El progreso individual se conserva en `COURSE_STATE` y en las evidencias asociadas; esta ruta no declara ni modifica el estado del estudiante.
+- El progreso individual se conserva en [`COURSE_STATE`](../Progress/COURSE_STATE.md) y en las evidencias asociadas; esta ruta no declara ni modifica el estado del estudiante.
 - Antes de impartir una clase, su plan debe indicar competencia, prerrequisitos, objetivos, lectura verificada, actividad, evidencia y criterio de éxito.
 - Cada plan debe pasar `DRAFT → REVIEW → FIX → RE-CHECK → READY`; cualquier corrección material pendiente bloquea su uso.
