@@ -1,21 +1,17 @@
 ---
 course_id: SAC01
-course_version: 1.3
-route_version: 1.3
-version: 1.4
 artifact_id: TRACE-SAC01-v1.4
 artifact_type: competency_evidence_traceability
 status: DRAFT_FOR_REVIEW
 language: es
-supersedes: 1.3
 change_proposal: SAC01-CP-013
 ---
 
-# Registro de trazabilidad de competencias y evidencias — Ruta v1.3
+# Registro de trazabilidad de competencias y evidencias
 
 ## 1. Estado y límites
 
-Esta versión resuelve los desajustes plan–registro identificados en la auditoría v1.0 y conserva el historial de versiones. Mantiene los IDs nuevos `EV-*` y los registros históricos intactos. El estado v4.0.9 conserva el progreso histórico; la ruta v1.3 sigue pendiente de aprobación curricular; las filas indicadas como `PENDING_REVIEW` o `PARTIAL_ALIGNMENT` no son vínculos confirmados. No se evalúa ni modifica el progreso del estudiante.
+Este registro resuelve los desajustes plan–registro identificados en la auditoría y conserva los IDs `EV-*` y los antecedentes de evidencia. El progreso histórico permanece separado; la ruta curricular está aprobada como mapa de planificación, mientras los planes de clase requieren revisión propia. Las filas `PENDING_REVIEW` o `PARTIAL_ALIGNMENT` no son vínculos confirmados. No se evalúa ni modifica el progreso del estudiante.
 
 ## 2. Convención de IDs
 
@@ -51,18 +47,18 @@ Los IDs `CR-Cxx-IDENTIFY`, `CR-Cxx-EXPLAIN`, `CR-Cxx-JUSTIFY` y `CR-Cxx-APPLY` r
 
 ## 6. Protección de históricos y bloqueos
 
-No renombrar ni reasignar `CL01-E01`, `CL01-M01`, `CL01-A01`–`CL01-A05` ni `CL01-Q01`. `course_id: SAC01` es el identificador vigente para artefactos nuevos. La ruta v1.3 y los planes siguen pendientes de aprobación formal. Las lecturas Fairbanks de CL02.05.01 y CL02.05.02 requieren verificación textual. Esta versión no modifica el estado del estudiante.
+No renombrar ni reasignar `CL01-E01`, `CL01-M01`, `CL01-A01`–`CL01-A05` ni `CL01-Q01`. `course_id: SAC01` identifica el curso. La ruta curricular está aprobada como mapa de planificación y los planes requieren validación propia. Las lecturas Fairbanks de CL02.05.01 y CL02.05.02 requieren verificación textual. Este registro no modifica el estado del estudiante.
 
-## 7. Acciones resueltas en esta versión
+## 7. Acciones resueltas
 
 1. CL01.02.01 se alinea con C01; C02 queda fuera de su evidencia principal.
 2. CL01.02.02 se alinea con C01 por su foco en estructura, runtime y comportamiento; la noción introductoria de vistas no certifica C06.
-3. CL01.04.01 conserva C02 solo porque el plan v1.1 exige clasificar explícitamente una implicación arquitectónica frente a una decisión local. Si esa actividad no se imparte, la evidencia queda `PARTIAL_ALIGNMENT`.
+3. CL01.04.01 conserva C02 solo porque el plan requiere clasificar explícitamente una implicación arquitectónica frente a una decisión local. Si esa actividad no se imparte, la evidencia queda `PARTIAL_ALIGNMENT`.
 4. CL01.05.01 solo aporta IDENTIFY/EXPLAIN a C02; no evalúa JUSTIFY ni certifica C05.
-5. Las 12 evidencias siguen `PENDING_REVIEW` hasta revisar la versión final de cada plan, probar la rúbrica con productos y confirmar gobierno curricular.
+5. Las 12 evidencias siguen `PENDING_REVIEW` hasta revisar el plan final, probar la rúbrica con productos y confirmar gobierno curricular.
 6. Los enlaces a niveles `CR-*` son propuestas de nivel; los criterios locales son los elementos puntuables.
 
 
 ## Actualización de identidad del curso — 2026-10-20
 
-**Registro histórico de identidad (2026-10-20):** una versión anterior adoptó `SWARCH-001` conforme a la decisión archivada `DECISION_COURSE_ID_SWARCH-001_v1.0.md`. Una instrucción explícita posterior estableció `SAC01` para los artefactos nuevos. El identificador histórico no se borra ni se usa como identidad vigente.
+**Registro histórico de identidad (2026-10-20):** una decisión anterior adoptó `SWARCH-001`. Posteriormente se estableció `SAC01` para los artefactos nuevos. El identificador histórico no se usa como identidad vigente.
