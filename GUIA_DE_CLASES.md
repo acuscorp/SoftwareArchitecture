@@ -18,7 +18,7 @@
 
 - `course_id`: `SAC01`
 - Este identificador establece la identidad del curso; no implica por sí solo aprobación curricular ni migración del progreso.
-- La [matriz maestra de competencias](MATRIZ_COMPETENCIAS.md) es la fuente de referencia para Software Architecture y AI Solution Architecture. Conserva el estado `DRAFT — PENDING_REVIEW`; este vínculo no la aprueba.
+- La [matriz maestra de competencias](Curriculum/MATRIZ_COMPETENCIAS.md) es la fuente de referencia para Software Architecture y AI Solution Architecture. Conserva el estado `DRAFT — PENDING_REVIEW`; este vínculo no la aprueba.
 
 ### Propósito y alcance
 
@@ -80,7 +80,7 @@ La progresión de competencias sigue **identificar → explicar → justificar �
 
 ## 4. Índice de clases, alcances y fronteras
 
-La jerarquía y los IDs se conservan exactamente en la ruta tabular. Cada clase nueva o revisada debe documentarse con los nueve apartados obligatorios de la [plantilla de plan de clase](../Classes/CLASS_PLAN_TEMPLATE.md). Al diseñarla, se consultan y verifican las fuentes de la ruta tabular conforme a las reglas de consulta de fuentes; sus referencias son orientación para el diseño y no lectura obligatoria del estudiante salvo asignación explícita en el plan. Esta guía no certifica dominio.
+La jerarquía y los IDs se conservan exactamente en la ruta tabular. Cada clase nueva o revisada debe documentarse con los nueve apartados obligatorios de la [plantilla de plan de clase](Classes/CLASS_PLAN_TEMPLATE.md). Al diseñarla, se consultan y verifican las fuentes de la ruta tabular conforme a las reglas de consulta de fuentes; sus referencias son orientación para el diseño y no lectura obligatoria del estudiante salvo asignación explícita en el plan. Esta guía no certifica dominio.
 
 ### Módulo M01 — Pensamiento arquitectónico y fundamentos
 
@@ -834,7 +834,7 @@ El índice no registra resultados individuales. Cada plan de clase debe especifi
 ## 7. Limitaciones y condiciones de revisión
 
 - El índice y la matriz orientan la planificación; no aprueban planes, lecturas ni evaluaciones individuales. La matriz de competencias conserva su estado de borrador pendiente de revisión.
-- No se infiere dominio del estudiante, asistencia ni progreso por crear una clase o por consultar una fuente. El estado individual se conserva en [COURSE_STATE](../Progress/COURSE_STATE.md) y no se modifica al diseñar clases.
+- No se infiere dominio del estudiante, asistencia ni progreso por crear una clase o por consultar una fuente. El estado individual se conserva en [COURSE_STATE](Progress/COURSE_STATE.md) y no se modifica al diseñar clases.
 - El currículo no establece una metodología global de tutoría ni proyectos incrementales como secciones autónomas. No inventarlos como política aprobada; si se requieren, especificarlos y evaluarlos en sus artefactos correspondientes.
 - Cada plan debe pasar `DRAFT → REVIEW → FIX → RE-CHECK → READY`; una corrección material pendiente impide impartirlo.
 - No cambies IDs, jerarquía ni trazabilidad curricular al reformular una clase. Registra límites de evidencia, supuestos y temas fuera de alcance.

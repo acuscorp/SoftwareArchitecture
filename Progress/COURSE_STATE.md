@@ -21,7 +21,7 @@ Por instrucción explícita del estudiante, este curso comenzará desde cero. Lo
 
 - **Curso:** Arquitectura de Software
 - **ID:** `SAC01`
-- **Ruta curricular activa:** [`LEARNING_PATH.md`](../Curriculum/LEARNING_PATH.md)
+- **Ruta curricular activa:** [`LEARNING_PATH.md`](../LEARNING_PATH.md)
 - **Estado del curso:** `NOT_STARTED`
 - **Punto de partida:** cero
 - **Diagnóstico inicial:** `NOT_STARTED`
