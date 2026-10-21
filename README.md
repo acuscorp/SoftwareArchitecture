@@ -5,6 +5,7 @@ Repositorio del curso de Arquitectura de Software.
 ## Contenido
 
 - [Ruta curricular](LEARNING_PATH.md): mapa de módulos, clases y referencias.
+- [Matriz maestra de competencias](MATRIZ_COMPETENCIAS.md): borrador pendiente de revisión para Software Architecture y AI Solution Architecture.
 - [Estado y decisión de aprobación de la ruta](Validation/ROUTE_REVIEW_AND_DECISION.md): alcance de la aprobación y condiciones de entrega.
 - [Planes de clase](Classes/): planes individuales organizados por módulo.
 
