@@ -1,6 +1,6 @@
 ---
 course_id: SAC01
-artifact_id: REVIEW-SAC01-ROUTE-v1.0
+artifact_id: REVIEW-SAC01-ROUTE
 artifact_type: curricular_review_decision
 status: STRUCTURE_APPROVED_WITH_DELIVERY_GATES
 language: es
