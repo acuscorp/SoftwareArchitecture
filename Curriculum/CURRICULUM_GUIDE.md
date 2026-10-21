@@ -1,26 +1,16 @@
-# Guía curricular complementaria — Arquitectura de Software
+# Guía para generar clases — Arquitectura de Software
 
-> Complementa la ruta tabular. Conserva propósito, jerarquía, criterios, progresión, límites, gobernanza y fuentes generales del currículo; la ruta tabular es la referencia canónica por clase. El contenido de la ruta no se sustituye por el de otro curso.
+> Esta guía conserva únicamente el marco de generación de clases: propósito, jerarquía, resultados y prerrequisitos curriculares, alcance por módulo/clase, consulta de fuentes, evidencia, limitaciones y condiciones de revisión. La [ruta tabular](LEARNING_PATH.md) es la referencia canónica para el título de cada clase y sus fuentes/capítulos. Ninguna regla aquí convierte por sí sola un plan en aprobado.
 
-# Guía curricular complementaria — Arquitectura de Software
-
-> **Alcance de esta revisión:** se aprueba el mapa curricular y la estructura general para planificación, con puertas obligatorias de validación por clase. No se alteran el contenido, los IDs, la jerarquía ni el progreso. La aprobación no certifica planes, lecturas o evaluaciones individuales como listos para impartirse.
-
-## Índice general
+## Índice
 
 1. [Propósito y perfil de entrada](#1-proposito-y-perfil-de-entrada)
-2. [Resultados globales](#2-resultados-globales)
-3. [Jerarquía curricular y reglas de organización](#3-jerarquia-curricular-y-reglas-de-organizacion)
-4. [Mapa de módulos, prerrequisitos y evidencias](#4-mapa-de-modulos-prerrequisitos-y-evidencias)
-5. [Índice detallado de clases](#5-indice-detallado-de-clases)
-6. [Prerrequisitos y reglas de avance](#6-prerrequisitos-y-reglas-de-avance)
-7. [Proyectos incrementales](#7-proyectos-incrementales)
-8. [Evaluación y evidencia de dominio](#8-evaluacion-y-evidencia-de-dominio)
-9. [Metodología de tutoría](#9-metodologia-de-tutoria)
-10. [Materiales de referencia](LEARNING_PATH.md#ruta-curricular-arquitectura-de-software)
-11. [Registro y seguimiento del progreso](#11-registro-y-seguimiento-del-progreso)
-12. [Criterios vigentes y pendientes](#12-criterios-vigentes-y-pendientes)
-
+2. [Instrucciones de diseño y organización](#2-jerarquia-curricular-y-reglas-de-organizacion)
+3. [Mapa de módulos, prerrequisitos y resultados](#3-mapa-de-modulos-prerrequisitos-y-evidencias)
+4. [Índice de clases, alcances y fronteras](#4-indice-detallado-de-clases)
+5. [Prerrequisitos y progresión](#5-prerrequisitos-y-reglas-de-avance)
+6. [Evidencia y evaluación](#6-evaluacion-y-evidencia-de-dominio)
+7. [Limitaciones y condiciones de revisión](#7-limitaciones-y-condiciones-de-revision)
 
 ## 1. Propósito y perfil de entrada
 
@@ -38,11 +28,7 @@ La estructura curricular organiza las unidades de aprendizaje dentro de las clas
 
 **Perfil de entrada:** esta ruta no especifica un perfil de entrada global de forma independiente. No se infiere uno; deberá concretarse mediante diagnóstico o acuerdo de tutoría antes de personalizar la progresión.
 
-## 2. Resultados globales
-
-Los resultados de salida están especificados por módulo en la tabla de progresión de la sección 4. La fuente no contiene una lista global separada; se conserva ese nivel de detalle sin inventar ni duplicar resultados.
-
-## 3. Jerarquía curricular y reglas de organización
+## 2. Instrucciones de diseño y organización
 
 ### Convenciones de jerarquía e identificadores
 
@@ -52,7 +38,7 @@ Los resultados de salida están especificados por módulo en la tabla de progres
 - **Subclase `SCL04.05.01.01`:** unidad específica de contenido dentro de una clase. Se crea para hacer explícito el alcance, no necesariamente para impartirse como una sesión independiente.
 - Los antiguos `Subtema x.y.z` pasan a ser subclases numeradas. Los antiguos títulos `Clase x.y` se conservan como referencia histórica en el registro de migración.
 - El índice usa el término **clase** para una unidad de enseñanza planificable. Meta de diseño: **60–90 minutos por clase**, ajustable según el plan didáctico. Si una clase necesita más de tres subclases conceptualmente distintas, se divide o se diseña explícitamente como secuencia; no se sobrecarga por mantener una sola sesión.
-- Las subclases identifican qué debe cubrirse; las actividades, criterios de evaluación y evidencias se definen en documentos de clase separados. Al diseñar cada clase, es obligatorio consultar las fuentes asignadas en la sección 10, revisar el contenido pertinente y cotejar título, edición, capítulo/subcapítulo y páginas con la copia disponible. Si no se puede verificar una referencia o no cubre el objetivo, se registra la limitación y no se inventan páginas ni cobertura. Las fuentes son obligatorias para fundamentar el diseño, no lectura obligatoria para el estudiante salvo que el plan lo indique explícitamente.
+- Las subclases identifican qué debe cubrirse; las actividades, criterios de evaluación y evidencias se definen en documentos de clase separados. Al diseñar cada clase, es obligatorio consultar las fuentes asignadas en la ruta tabular, revisar el contenido pertinente y cotejar título, edición, capítulo/subcapítulo y páginas con la copia disponible. Si no se puede verificar una referencia o no cubre el objetivo, se registra la limitación y no se inventan páginas ni cobertura. Las fuentes son obligatorias para fundamentar el diseño, no lectura obligatoria para el estudiante salvo que el plan lo indique explícitamente.
 - Las referencias cruzadas indican aplicación o profundización, no repetición completa. El mismo concepto puede reaparecer con un propósito distinto, que debe quedar expresado en la frontera del submódulo.
 
 ### Fronteras críticas entre módulos
@@ -68,7 +54,7 @@ Los resultados de salida están especificados por módulo en la tabla de progres
 
 ---
 
-## 4. Mapa de módulos, prerrequisitos y evidencias
+## 3. Mapa de módulos, prerrequisitos y resultados
 
 ### Criterios de progresión y dominio
 
@@ -92,9 +78,9 @@ La progresión de competencias sigue **identificar → explicar → justificar �
 | M14. Evaluación arquitectónica y análisis económico | Comparación sistemática, evidencia y análisis económico. | Drivers y alternativas de M02; se reutiliza el contenido técnico pertinente de M03–M13 según el caso evaluado. Explica una decisión candidata, sus criterios y al menos una incertidumbre relevante. | **C17:** Comparar arquitecturas con evidencia, sensibilidad, costes y riesgos. |
 | M15. Práctica profesional del arquitecto | Comunicación profesional, gobernanza y defensa de decisiones. | M01–M14: conocimiento aplicable al caso; no se requiere dominio profundo de todos los temas posibles. Presenta un caso, sus stakeholders, restricciones y decisión pendiente; reconoce evidencia incompleta. | **C18:** Comunicar y defender una propuesta integral ante stakeholders, dejando trazabilidad de decisiones y límites de evidencia. |
 
-## 5. Índice detallado de clases
+## 4. Índice de clases, alcances y fronteras
 
-La jerarquía y los IDs se conservan exactamente en la ruta tabular. Cada clase nueva o revisada debe documentarse con los nueve apartados obligatorios de la [plantilla de plan de clase](../Classes/CLASS_PLAN_TEMPLATE.md). Al diseñarla, se consultan y verifican las fuentes de la ruta tabular y de la sección 10 conforme a la regla de la sección 3; sus referencias son orientación para el diseño y no lectura obligatoria del estudiante salvo asignación explícita en el plan. Esta guía no certifica dominio.
+La jerarquía y los IDs se conservan exactamente en la ruta tabular. Cada clase nueva o revisada debe documentarse con los nueve apartados obligatorios de la [plantilla de plan de clase](../Classes/CLASS_PLAN_TEMPLATE.md). Al diseñarla, se consultan y verifican las fuentes de la ruta tabular y de la ruta tabular conforme a las reglas de consulta de fuentes; sus referencias son orientación para el diseño y no lectura obligatoria del estudiante salvo asignación explícita en el plan. Esta guía no certifica dominio.
 
 ### Módulo M01 — Pensamiento arquitectónico y fundamentos
 
@@ -834,81 +820,21 @@ La jerarquía y los IDs se conservan exactamente en la ruta tabular. Cada clase 
 
 ---
 
-## 6. Prerrequisitos y reglas de avance
+## 5. Prerrequisitos y progresión
 
 - La tabla de la sección 4 especifica prerrequisitos mínimos observables y resultados esperados por módulo.
 - La progresión declarada es **identificar → explicar → justificar → aplicar**.
 - Un prerrequisito mínimo no equivale a dominio profundo; las decisiones de avance requieren evidencia alineada al plan de clase.
 - Los IDs existentes se conservan; una reorganización visual no autoriza renumeración ni migración automática de progreso.
 
-## 7. Proyectos incrementales
-
-La ruta no define una sección autónoma de proyectos incrementales. No se añaden proyectos nuevos en esta revisión de formato; cualquier proyecto deberá definirse y evaluarse en el artefacto curricular correspondiente.
-
-## 8. Evaluación y evidencia de dominio
+## 6. Evidencia y evaluación
 
 El índice no registra resultados individuales. Cada plan de clase debe especificar evidencia observable, criterio de evaluación y competencia vinculada. La validación de dominio permanece separada del diseño curricular.
 
-## 9. Metodología de tutoría
+## 7. Limitaciones y condiciones de revisión
 
-La ruta no establece una metodología global de tutoría como sección autónoma. No se inventa una en esta revisión; la metodología aplicable deberá declararse en el contrato de tutoría o en los planes de clase cuando corresponda.
-
-## 10. Materiales de referencia
-
-El mapeo de fuentes y capítulos por clase está en la [ruta tabular](LEARNING_PATH.md). Esta guía conserva las fuentes orientativas por módulo y los índices bibliográficos, sin duplicar el mapeo clase por clase.
-
-### Fuentes principales por módulo
-
-La asignación siguiente procede del mapa de competencias de la ruta base; orienta la selección de material y no sustituye las referencias verificadas por clase.
-
-| Módulo | Fuentes principales previstas |
-|---|---|
-| 1. Fundamentos | Software Architecture in Practice (SAIP), Just Enough Software Architecture, UML Distilled |
-| 2. Requisitos y decisiones | SAIP, Just Enough Software Architecture, Software Architecture: The Hard Parts, Mastering API Architecture, DDD |
-| 3. Modelado y comunicación | UML and OO Design Foundations, UML Distilled, SAIP, Design Patterns |
-| 4. Modularidad y evolución del código | SAIP, Software Architecture: The Hard Parts, Refactoring, Code Complete, Street Coder, Effective Java |
-| 5. Patrones | Design Patterns, Effective Java, Refactoring |
-| 6. Dominio y límites | Implementing Domain-Driven Design, SAIP, Software Architecture: The Hard Parts, Mastering API Architecture |
-| 7. Sistemas distribuidos | SAIP, Software Architecture: The Hard Parts, Implementing Domain-Driven Design, Street Coder, Effective Java |
-| 8. Estilos y descomposición | SAIP, Software Architecture: The Hard Parts, Implementing Domain-Driven Design, Mastering API Architecture |
-| 9. APIs | Mastering API Architecture, SAIP, Implementing Domain-Driven Design, Effective Java |
-| 10. Datos | Software Architecture: The Hard Parts, Implementing Domain-Driven Design, SAIP, Mastering API Architecture |
-| 11. Seguridad y operación | Mastering API Architecture, SAIP, Street Coder, Effective Java |
-| 12. Cloud y evolución | SAIP, Mastering API Architecture, Software Architecture: The Hard Parts, Street Coder |
-| 13. AI Engineering | AI Engineering, SAIP, Mastering API Architecture, Software Architecture: The Hard Parts |
-| 14. Evaluación | SAIP, Software Architecture: The Hard Parts, Just Enough Software Architecture, Mastering API Architecture |
-| 15. Práctica profesional | SAIP, Software Architecture: The Hard Parts, Mastering API Architecture, Street Coder |
-
-### Índices bibliográficos de las fuentes propuestas
-
-Los enlaces llevan a índices o fichas editoriales/autorales públicos. No se publican identificadores privados de Drive ni copias de libros.
-
-| Código | Libro y edición consultada | Índice |
-|---|---|---|
-| DSA2 | *Designing Software Architectures: A Practical Approach*, 2.ª ed. (Humberto Cervantes y Rick Kazman, 2024) | [O’Reilly](https://www.oreilly.com/library/view/designing-software-architectures/9780138108069/toc.xhtml) |
-| HARD | *Software Architecture: The Hard Parts* (Neal Ford, Mark Richards, Pramod Sadalage y Zhamak Dehghani, 2021) | [O’Reilly](https://www.oreilly.com/library/view/software-architecture-the/9781492086888/) |
-| JESA | *Just Enough Software Architecture: A Risk-Driven Approach* (George Fairbanks, 2010) | [Índice del autor](https://www.georgefairbanks.com/book/) |
-| CC2 | *Code Complete*, 2.ª ed. (Steve McConnell, 2004) | [O’Reilly](https://www.oreilly.com/library/view/code-complete-2nd/0735619670/toc.html) |
-| OOSE3 | *Object-Oriented Software Engineering: Using UML, Patterns, and Java*, 3.ª ed. (Bernd Bruegge y Allen H. Dutoit, 2010) | [InformIT/Pearson](https://www.informit.com/store/object-oriented-software-engineering-using-uml-patterns-9780136061250) |
-| TP3 | *Think Python: How to Think Like a Computer Scientist*, 3.ª ed. (Allen B. Downey, 2024) | [O’Reilly](https://www.oreilly.com/library/view/think-python-3rd/9781098155421/) |
-| MPDP3 | *Mastering Python Design Patterns*, 3.ª ed. (Kamon Ayeva y Sakis Kasampalis, 2024) | [Packt](https://www.packtpub.com/en-us/product/mastering-python-design-patterns-9781837639618) |
-| EPP4 | *Expert Python Programming*, 4.ª ed. (Michał Jaworski, Tarek Ziadé y Gastón Hillar, 2021) | [Packt](https://www.packtpub.com/en-gb/product/expert-python-programming-9781801071109) |
-| PDL | *Practical Deep Learning for Cloud, Mobile, and Edge* (Anirudh Koul, Siddha Ganju y Meher Kasam, 2019) | [O’Reilly](https://www.oreilly.com/library/view/practical-deep-learning/9781492034858/) |
-
-
-
-
-
-## 11. Registro y seguimiento del progreso
-
-El progreso individual se registra en el [`COURSE_STATE`](../Progress/COURSE_STATE.md) y en las evidencias asociadas, no en esta ruta curricular. La normalización de formato no cambia estados, competencias validadas ni posición académica del estudiante.
-
-## 12. Criterios vigentes y pendientes
-
-- La jerarquía oficial es módulo → submódulo → clase → subclase, con IDs estables.
-- Los prerrequisitos incluyen entradas observables mínimas y resultados esperados por módulo; no equivalen a declarar dominio del estudiante.
-- Las fuentes principales están asignadas por módulo. El mapa de la sección 10 propone capítulos y subcapítulos complementarios; cada plan de clase debe verificar edición, índice, disponibilidad y páginas exactas antes de asignar una lectura.
-- Los planes de clase, lecturas, ejercicios y evaluaciones se mantienen en artefactos separados y requieren revisión propia.
-- El progreso individual se conserva en [`COURSE_STATE`](../Progress/COURSE_STATE.md) y en las evidencias asociadas; esta ruta no declara ni modifica el estado del estudiante.
-- Antes de impartir una clase, su plan debe indicar competencia, prerrequisitos, objetivos, lectura verificada, actividad, evidencia y criterio de éxito.
-- Cada plan debe pasar `DRAFT → REVIEW → FIX → RE-CHECK → READY`; cualquier corrección material pendiente bloquea su uso.
+- El índice y la matriz orientan la planificación; no aprueban planes, lecturas ni evaluaciones individuales. La matriz de competencias conserva su estado de borrador pendiente de revisión.
+- No se infiere dominio del estudiante, asistencia ni progreso por crear una clase o por consultar una fuente. El estado individual se conserva en [COURSE_STATE](../Progress/COURSE_STATE.md) y no se modifica al diseñar clases.
+- El currículo no establece una metodología global de tutoría ni proyectos incrementales como secciones autónomas. No inventarlos como política aprobada; si se requieren, especificarlos y evaluarlos en sus artefactos correspondientes.
+- Cada plan debe pasar `DRAFT → REVIEW → FIX → RE-CHECK → READY`; una corrección material pendiente impide impartirlo.
+- No cambies IDs, jerarquía ni trazabilidad curricular al reformular una clase. Registra límites de evidencia, supuestos y temas fuera de alcance.
