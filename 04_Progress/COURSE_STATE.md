@@ -1,7 +1,7 @@
 ---
 course_id: SAC01
 schema_version: "0.4.0"
-artifact_id: STATE-ARQ-SW-SAC01-V4.2.0
+artifact_id: STATE-ARQ-SW-SAC01
 artifact_type: COURSE_STATE
 status: NOT_STARTED
 compatibility_gate: STRUCTURE_APPROVED_CLASS_VALIDATION_REQUIRED
