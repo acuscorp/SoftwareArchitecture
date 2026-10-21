@@ -4,7 +4,6 @@ artifact_id: REVIEW-SAC01-ROUTE
 artifact_type: curricular_review_decision
 status: STRUCTURE_APPROVED_WITH_DELIVERY_GATES
 language: es
-format_standard: UT-LP-1.0
 review_date: 2026-10-21
 ---
 
@@ -14,13 +13,13 @@ review_date: 2026-10-21
 
 Se aprueba **el mapa curricular y su estructura general** para servir como referencia de planificación, con condiciones de entrega por clase. Esta decisión no certifica el dominio del estudiante, no aprueba automáticamente planes de clase, lecturas o evaluaciones, y no resuelve ni migra evidencias individuales.
 
-La ruta curricular se revisó conforme a UT-LP-1.0. El dictamen confirma la coherencia estructural básica del mapa: 15 módulos, 63 submódulos, 77 clases y 176 subclases explícitas; los identificadores se conservan. La jerarquía propia de Arquitectura se mantiene.
+La ruta curricular se revisó conforme al estándar curricular acordado. El dictamen confirma la coherencia estructural básica del mapa: 15 módulos, 63 submódulos, 77 clases y 176 subclases explícitas; los identificadores se conservan. La jerarquía propia de Arquitectura se mantiene.
 
 ## Criterios revisados
 
 | Criterio | Resultado | Justificación / límite |
 |---|---|---|
-| Identidad del curso | PASS | `course_id: SAC01` y estándar UT-LP-1.0 declarados. |
+| Identidad del curso | PASS | `course_id: SAC01` y el estándar curricular declarados. |
 | Jerarquía e IDs | PASS | Módulo → submódulo → clase → subclase; IDs estables. Conteos registrados por la auditoría estructural. |
 | Resultados y progresión | PASS WITH GATES | Resultados por módulo y progresión identificable. El detalle didáctico/evidencia se define en cada plan de clase. |
 | Prerrequisitos | PASS WITH GATES | Hay entradas observables y dependencias; comprobarlas contra los planes antes de impartir cada clase. |
