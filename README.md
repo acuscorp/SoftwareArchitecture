@@ -1,25 +1,15 @@
 # Software Architecture — SAC01
 
-Repositorio del curso de Arquitectura de Software. La estructura sigue un esquema similar al de [PythonCourses](https://github.com/acuscorp/PythonCourses): los documentos de entrada y gobierno del curso están en la raíz, y los materiales se agrupan por función.
+Repositorio del curso de Arquitectura de Software.
 
-## Empieza aquí
+## Contenido
 
-- [Ruta curricular](LEARNING_PATH.md): índice de clases, fuentes y capítulos o secciones de referencia.
-- [Guía para generar clases](GUIA_DE_CLASES.md): instrucciones, prerrequisitos, alcances, fronteras curriculares, evidencias y límites de diseño.
-- [Plantilla de plan de clase](Classes/CLASS_PLAN_TEMPLATE.md): formato obligatorio de nueve apartados.
-- [Manifiesto del proyecto](PROJECT_MANIFEST.md): inventario de artefactos canónicos y sus estados.
-- [Matriz maestra de competencias](MATRIZ_COMPETENCIAS.md): fuente maestra para **Software Architecture** y **AI Solution Architecture**. Sigue como **DRAFT — PENDING_REVIEW**; su ubicación y función no implican aprobación.
-- [Dictamen de ruta](Validation/ROUTE_REVIEW_AND_DECISION.md): decisiones y condiciones de revisión curricular.
-- [Estado del curso](Progress/COURSE_STATE.md): punto de partida y progreso individual.
+- [Ruta curricular](LEARNING_PATH.md): mapa de módulos, clases y referencias.
+- [Estado y decisión de aprobación de la ruta](Validation/ROUTE_REVIEW_AND_DECISION.md): alcance de la aprobación y condiciones de entrega.
+- [Planes de clase](Classes/): planes individuales organizados por módulo.
 
-## Carpetas
+## Criterio de aprobación
 
-| Carpeta | Contenido |
-|---|---|
-| `Classes/` | Planes por módulo, en carpetas `MXX - Título del módulo`; la plantilla está aquí. |
-| `Curriculum/` | Matriz maestra de competencias. |
-| `Assessment/` | Trazabilidad de evidencias y rúbricas. |
-| `Progress/` | Estado individual del curso. |
-| `Validation/` | Dictámenes y decisiones de revisión. |
+La ruta curricular está aprobada como mapa de planificación. Esto no implica que todos los planes de clase, lecturas o actividades estén aprobados ni listos para impartirse. Cada plan debe superar su revisión y validación antes de utilizarse.
 
-La ruta y la guía describen el currículo; no aprueban automáticamente planes, lecturas ni evaluaciones. Los borradores conservan su estado. GitHub mantiene el historial de cambios.
+Los nombres de archivo se mantienen estables; el historial de cambios se gestiona mediante Git.
