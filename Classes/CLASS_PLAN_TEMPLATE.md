@@ -37,7 +37,7 @@ Indica dónde se tratarán los temas excluidos si corresponde.
 
 ## 4. Fuentes de referencia y lectura asignada
 
-**Consulta obligatoria para diseñar esta clase:** revisa la fila de la clase en [Materiales de referencia](../Curriculum/LEARNING_PATH.md#10-materiales-de-referencia), consulta el material pertinente y coteja los datos con la copia o índice editorial disponible.
+**Consulta obligatoria para diseñar esta clase:** revisa la fila de la clase en [ruta curricular](../Curriculum/LEARNING_PATH.md), consulta el material pertinente y coteja los datos con la copia o índice editorial disponible.
 
 | Fuente consultada | Edición | Capítulo / sección | Páginas verificadas | Relación con el resultado | Estado |
 | --- | --- | --- | --- | --- | --- |
