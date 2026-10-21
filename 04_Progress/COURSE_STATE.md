@@ -1,13 +1,9 @@
 ---
 course_id: SAC01
 schema_version: "0.4.0"
-course_version: v4.2.0
 artifact_id: STATE-ARQ-SW-SAC01-V4.2.0
 artifact_type: COURSE_STATE
 status: NOT_STARTED
-active_working_version: v4.2.0
-previous_version: v4.1.1
-route_version_target: 1.4
 compatibility_gate: STRUCTURE_APPROVED_CLASS_VALIDATION_REQUIRED
 revision_scope: USER_REQUESTED_PROGRESS_RESET
 academic_evidence_changed: false
@@ -15,7 +11,7 @@ state_reconciliation: HISTORICAL_STATE_ARCHIVED_NEW_START
 new_evidence_added: false
 ---
 
-# COURSE STATE v4.2.0 — Arquitectura de Software
+# COURSE STATE — Arquitectura de Software
 
 ## Decisión de estado
 
@@ -25,7 +21,7 @@ Por instrucción explícita del estudiante, este curso comenzará desde cero. Lo
 
 - **Curso:** Arquitectura de Software
 - **ID:** `SAC01`
-- **Ruta curricular activa:** `Ruta_Arquitectura_Software_Indice_General_v1.4_SAC01.md`
+- **Ruta curricular activa:** `01_Curriculum/LEARNING_PATH.md`
 - **Estado del curso:** `NOT_STARTED`
 - **Punto de partida:** cero
 - **Diagnóstico inicial:** `NOT_STARTED`
@@ -38,18 +34,17 @@ Por instrucción explícita del estudiante, este curso comenzará desde cero. Lo
 | Área | Estado | Nota |
 |---|---|---|
 | Diagnóstico inicial | NOT_STARTED | Se realizará en el nuevo inicio si lo exige la ruta y el plan de clase aprobado |
-| Clases y actividades | NOT_STARTED | No se heredan actividades completadas de versiones previas |
+| Clases y actividades | NOT_STARTED | No se heredan actividades completadas de estados previos |
 | Evaluaciones | NOT_STARTED | No se heredan resultados ni estados de evaluación anteriores |
 | Competencias | NOT_STARTED | Todas comienzan sin validación activa |
 | Progreso por módulos | NOT_STARTED | Avance desde cero, respetando prerrequisitos y evidencia de la ruta |
 
 ## Compatibilidad y condiciones de entrega
 
-La ruta v1.4 está aprobada como mapa curricular para planificación, con puertas obligatorias de validación por clase. Esto no significa que todos los planes, lecturas o rúbricas estén listos para impartirse. Antes de cada clase, su plan y materiales deberán pasar la revisión y validación correspondientes.
+La ruta curricular está aprobada como mapa curricular para planificación, con puertas obligatorias de validación por clase. Esto no significa que todos los planes, lecturas o rúbricas estén listos para impartirse. Antes de cada clase, su plan y materiales deberán pasar la revisión y validación correspondientes.
 
-## Historial y preservación
+## Preservación de registros
 
-- Estado previo: `COURSE_STATE_v4.1.1_SAC01.md`, conservado como antecedente histórico.
 - Los datos históricos no se borran, pero quedan fuera del progreso activo del curso reiniciado.
 - No se modifica la ruta curricular ni sus IDs como parte de este reinicio.
 
