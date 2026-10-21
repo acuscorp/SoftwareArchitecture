@@ -57,7 +57,7 @@ Los resultados de salida están especificados por módulo en la tabla de progres
 - **Subclase `SCL04.05.01.01`:** unidad específica de contenido dentro de una clase. Se crea para hacer explícito el alcance, no necesariamente para impartirse como una sesión independiente.
 - Los antiguos `Subtema x.y.z` pasan a ser subclases numeradas. Los antiguos títulos `Clase x.y` se conservan como referencia histórica en el registro de migración.
 - El índice usa el término **clase** para una unidad de enseñanza planificable. Meta de diseño: **60–90 minutos por clase**, ajustable según el plan didáctico. Si una clase necesita más de tres subclases conceptualmente distintas, se divide o se diseña explícitamente como secuencia; no se sobrecarga por mantener una sola sesión.
-- Las subclases identifican qué debe cubrirse; las actividades, lecturas precisas, criterios de evaluación y evidencias se definen en documentos de clase separados.
+- Las subclases identifican qué debe cubrirse; las actividades, criterios de evaluación y evidencias se definen en documentos de clase separados. La sección 10 propone capítulos y subcapítulos por clase; cada plan debe cotejarlos con la edición disponible y concretar las páginas antes de impartirla.
 - Las referencias cruzadas indican aplicación o profundización, no repetición completa. El mismo concepto puede reaparecer con un propósito distinto, que debe quedar expresado en la frontera del submódulo.
 
 ### Fronteras críticas entre módulos
@@ -99,7 +99,7 @@ La progresión de competencias sigue **identificar → explicar → justificar �
 
 ## 5. Índice detallado de clases
 
-La jerarquía y los IDs se conservan exactamente en el índice. El resultado específico, la actividad, las lecturas precisas y los criterios/evidencias se definen en el plan de cada clase; este índice no certifica dominio.
+La jerarquía y los IDs se conservan exactamente en el índice. El resultado específico, la actividad y los criterios/evidencias se definen en el plan de cada clase. La sección 10 incluye capítulos y subcapítulos propuestos para orientar la preparación; el plan debe verificarlos antes de impartir la clase. Este índice no certifica dominio.
 
 ### Módulo M01 — Pensamiento arquitectónico y fundamentos
 
@@ -882,6 +882,106 @@ La asignación siguiente procede del mapa de competencias de la ruta base. Es un
 | 14. Evaluación | SAIP, Software Architecture: The Hard Parts, Just Enough Software Architecture, Mastering API Architecture |
 | 15. Práctica profesional | SAIP, Software Architecture: The Hard Parts, Mastering API Architecture, Street Coder |
 
+### Índices bibliográficos de las fuentes propuestas
+
+Los enlaces llevan a índices o fichas editoriales/autorales públicos. No se publican identificadores privados de Drive ni copias de libros.
+
+| Código | Libro y edición consultada | Índice |
+|---|---|---|
+| DSA2 | *Designing Software Architectures: A Practical Approach*, 2.ª ed. (Humberto Cervantes y Rick Kazman, 2024) | [O’Reilly](https://www.oreilly.com/library/view/designing-software-architectures/9780138108069/toc.xhtml) |
+| HARD | *Software Architecture: The Hard Parts* (Neal Ford, Mark Richards, Pramod Sadalage y Zhamak Dehghani, 2021) | [O’Reilly](https://www.oreilly.com/library/view/software-architecture-the/9781492086888/) |
+| JESA | *Just Enough Software Architecture: A Risk-Driven Approach* (George Fairbanks, 2010) | [Índice del autor](https://www.georgefairbanks.com/book/) |
+| CC2 | *Code Complete*, 2.ª ed. (Steve McConnell, 2004) | [O’Reilly](https://www.oreilly.com/library/view/code-complete-2nd/0735619670/toc.html) |
+| OOSE3 | *Object-Oriented Software Engineering: Using UML, Patterns, and Java*, 3.ª ed. (Bernd Bruegge y Allen H. Dutoit, 2010) | [InformIT/Pearson](https://www.informit.com/store/object-oriented-software-engineering-using-uml-patterns-9780136061250) |
+| TP3 | *Think Python: How to Think Like a Computer Scientist*, 3.ª ed. (Allen B. Downey, 2024) | [O’Reilly](https://www.oreilly.com/library/view/think-python-3rd/9781098155421/) |
+| MPDP3 | *Mastering Python Design Patterns*, 3.ª ed. (Kamon Ayeva y Sakis Kasampalis, 2024) | [Packt](https://www.packtpub.com/en-us/product/mastering-python-design-patterns-9781837639618) |
+| EPP4 | *Expert Python Programming*, 4.ª ed. (Michał Jaworski, Tarek Ziadé y Gastón Hillar, 2021) | [Packt](https://www.packtpub.com/en-gb/product/expert-python-programming-9781801071109) |
+| PDL | *Practical Deep Learning for Cloud, Mobile, and Edge* (Anirudh Koul, Siddha Ganju y Meher Kasam, 2019) | [O’Reilly](https://www.oreilly.com/library/view/practical-deep-learning/9781492034858/) |
+
+### Mapa propuesto de lecturas complementarias por clase
+
+El mapeo vincula los libros aportados y los títulos revisados con las clases de esta ruta. **Propuesta** significa orientación para preparar la clase, no lectura obligatoria ni aprobación del plan. Las subsecciones se indican cuando el índice editorial las especifica. “Pendiente” señala que ninguno de los libros listados aporta una sección directa suficiente; se conserva la fuente principal asignada al módulo y el capítulo se verificará al preparar el plan.
+
+| ID y clase | Libro | Capítulo / subsección sugerida | Alcance de la referencia |
+|---|---|---|---|
+| `CL01.01.01` — Concepto y propósito de la arquitectura | JESA, caps. 1–2; DSA2, §§1.2–1.3 | Concepto, propósito y rol arquitectónico. |
+| `CL01.02.01` — Distinguir elementos, responsabilidades y relaciones | JESA, caps. 7, 12–13; DSA2, §§3.2, 4.5 | Elementos, estructuras y relaciones. |
+| `CL01.02.02` — Conectar estructura, runtime y vistas introductorias | JESA, caps. 7, 9–10, 15; DSA2, §§4.5, 4.7; OOSE3, cap. 7.3 | Modelos, código, vistas y despliegue; la sección 7.3 de OOSE3 presenta diagramas UML de despliegue. |
+| `CL01.03.01` — Arquitectura, diseño e implementación | JESA, caps. 2, 7, 10; DSA2, §1.2; OOSE3, caps. 6, 10 | Distinguir arquitectura, diseño de sistema y realización en código. |
+| `CL01.04.01` — Contexto y participantes | OOSE3, caps. 3–4; DSA2, §§1.3, 2.4 | Roles, comunicación, requisitos y drivers. |
+| `CL01.05.01` — Decisiones arquitectónicas | DSA2, §§2.6, 3.1–3.2, 4.8; HARD, cap. 1; JESA, cap. 3 | Decisiones arquitectónicas, ADR, conceptos de diseño y proceso guiado por riesgo. |
+| `CL02.01.01` — Necesidades y requisitos | OOSE3, caps. 4–5; DSA2, §2.4 | Requisitos, análisis y drivers. |
+| `CL02.02.01` — Drivers arquitectónicos | DSA2, §§2.4, 4.2; JESA, cap. 3 | Drivers y Attribute-Driven Design. |
+| `CL02.03.01` — Escenarios de calidad | DSA2, §§3.3–3.4, 11.6 | Conceptos para desempeño/disponibilidad y revisiones basadas en escenarios. |
+| `CL02.04.01` — Riesgo arquitectónico | JESA, caps. 3–5; DSA2, §§11.4, 11.6 | Ciclo de riesgo y técnicas de análisis; útil como base, no asigna una técnica de evaluación de riesgo por sí sola. |
+| `CL02.05.01` — Generar alternativas arquitectónicas viables | DSA2, §§4.2–4.4; OOSE3, cap. 6 | ADD, selección de conceptos y descomposición para producir alternativas. |
+| `CL02.05.02` — Comparar consecuencias y registrar una decisión | DSA2, §§3.1, 4.4; HARD, cap. 15 | Comparación inicial de consecuencias. El análisis sistemático se profundiza en M14. |
+| `CL03.01.01` — Fundamentos de modelado | OOSE3, cap. 2; JESA, caps. 6–7, 15; DSA2, §4.7 | Modelado UML y documentación preliminar de diseño. |
+| `CL03.02.01` — Orientación a objetos | TP3, caps. 14–17; OOSE3, caps. 8–10 | Programación orientada a objetos, clases, métodos, herencia y conversión de modelos a código. |
+| `CL03.03.01` — Diagramas de clases | OOSE3, cap. 2; CC2, §§6.1–6.3 | UML y conceptos de clase/interfaz. CC2 complementa el diseño de clases; no enseña notación UML. |
+| `CL03.03.02` — Diagramas de componentes | OOSE3, cap. 6 | Descomposición de sistemas; para notación UML de componentes, confirmar el plan con UML Distilled. |
+| `CL03.03.03` — Diagramas de despliegue | OOSE3, §7.3; DSA2, §§6.1–6.2 | UML de despliegue y decisiones de desplegabilidad. |
+| `CL03.04.01` — UML de comportamiento | OOSE3, cap. 2; JESA, caps. 12–13 | UML como notación y relaciones entre elementos; verificar en el plan el diagrama conductual concreto. |
+| `CL03.05.01` — Vistas y documentación arquitectónica | JESA, cap. 15; DSA2, §4.7; OOSE3, cap. 12 | Uso de modelos, documentación preliminar y rationale. |
+| `CL04.01.01` — Modularidad | HARD, caps. 3–4; JESA, cap. 11; CC2, §5.3 | Modularidad, descomposición, encapsulación y heurísticas de diseño modular. |
+| `CL04.02.01` — Cohesión y acoplamiento | HARD, caps. 2–3; CC2, §5.3 | Acoplamiento estático/dinámico, cohesión y heurísticas de diseño. |
+| `CL04.03.01` — Calidad del diseño existente | HARD, cap. 3; CC2, §§5.3–5.4 | Maintainability y diagnóstico de diseño; heurísticas y prácticas de diseño. |
+| `CL04.04.01` — Refactorización y diseño evolutivo | CC2, §§24.1–24.5; DSA2, §§10.1–10.4 | Evolución y refactorización; deuda técnica arquitectónica. |
+| `CL04.05.01` — Encapsulación, composición y diseño de unidades | CC2, §§6.2–6.4; EPP4, cap. 5 | Encapsulación, clases, composición e interfaces/modularidad en Python. |
+| `CL04.05.02` — Interfaces y contratos entre módulos | DSA2, §4.6; OOSE3, cap. 9; HARD, cap. 13; EPP4, cap. 5 | Interfaces y contratos; el capítulo HARD trata contratos entre microservicios. |
+| `CL04.05.03` — Concurrencia, datos compartidos y errores | EPP4, caps. 6–7; MPDP3, cap. 7; CC2, §§8.3–8.5 | Concurrencia/eventos en Python y manejo defensivo de errores. |
+| `CL05.01.01` — Fundamentos de patrones | MPDP3, caps. 1–2; OOSE3, cap. 8; CC2, §5.3 | Principios de diseño, SOLID y patrones; discutir fuerzas y consecuencias. |
+| `CL05.02.01` — Patrones creacionales | MPDP3, cap. 3; OOSE3, cap. 8 | Patrones creacionales y reutilización de soluciones. |
+| `CL05.03.01` — Patrones estructurales | MPDP3, cap. 4; OOSE3, cap. 8 | Patrones estructurales. |
+| `CL05.04.01` — Patrones de comportamiento | MPDP3, cap. 5; OOSE3, cap. 8 | Patrones de comportamiento. |
+| `CL05.05.01` — Variabilidad y selección de patrones | MPDP3, caps. 6, 9; DSA2, apéndice A.3; HARD, caps. 5, 15 | Patrones arquitectónicos y distribuidos; usar el análisis de trade-offs para seleccionar por contexto. |
+| `CL06.01.01` — Dominio y subdominios | JESA, cap. 8; OOSE3, cap. 5; HARD, cap. 5 | Modelo de dominio, análisis y agrupación de componentes del dominio. |
+| `CL06.02.01` — Bounded contexts y context maps | JESA, cap. 8; HARD, cap. 5 | Apoyo parcial: modelo de dominio y dominios de componentes; no cubre directamente context maps/relaciones DDD. |
+| `CL06.03.01` — Modelos de dominio | JESA, cap. 8; OOSE3, cap. 5 | Modelo de dominio y análisis. |
+| `CL06.04.01` — Integración orientada al dominio | HARD, caps. 5, 7, 9–12 | Integración entre componentes/servicios y coordinación; aplicación al dominio requiere el plan de clase. |
+| `CL07.01.01` — Fundamentos de distribución | HARD, caps. 2, 7; JESA, cap. 14 | Quanta, granularidad de servicios y estilos arquitectónicos. |
+| `CL07.02.01` — Comunicación entre componentes distribuidos | HARD, caps. 10, 13 | Acceso distribuido, comunicación entre servicios y contratos. |
+| `CL07.03.01` — Consistencia y disponibilidad ante fallos | HARD, caps. 9–10, 12; DSA2, §3.4 | Propiedad, consistencia eventual, acceso distribuido y sagas; disponibilidad. |
+| `CL07.03.02` — Coordinación, transacciones, workflows y sagas | HARD, caps. 11–12 | Orquestación, coreografía, estado de workflow y sagas transaccionales. |
+| `CL07.04.01` — Resiliencia y tolerancia a fallos | HARD, caps. 9, 12; MPDP3, cap. 9; DSA2, §3.4 | Consistencia y compensación, retry/circuit breaker, conceptos de disponibilidad. |
+| `CL07.05.01` — Consecuencias y trade-offs de la distribución | HARD, caps. 7, 15 | Trade-offs de granularidad y método de análisis de trade-offs. |
+| `CL08.01.01` — Capas y monolito modular | JESA, cap. 14; HARD, caps. 3–4 | Estilos y descomposición; no tomar microservicios como opción por defecto. |
+| `CL08.01.02` — Service-based architecture y SOA | HARD, caps. 4–7; JESA, cap. 14 | Descomposición y granularidad de servicios; comparar con estilos arquitectónicos. |
+| `CL08.01.03` — Microservicios | HARD, caps. 4–7 | Descomposición, patrones de componentes y granularidad de servicios. |
+| `CL08.02.01` — Límites y unidades de despliegue | DSA2, §§6.1–6.3; HARD, caps. 7–8 | Principios/decisiones de desplegabilidad y granularidad/reutilización. |
+| `CL08.03.01` — Elegir una estrategia de descomposición | DSA2, §§4.2–4.5; HARD, caps. 4, 15 | ADD, estructuras, descomposición y comparación de alternativas. |
+| `CL09.01.01` — Contratos y diseño de APIs | DSA2, §§5.2–5.3; HARD, cap. 13 | Diseño API-céntrico y contratos strict/loose. |
+| `CL09.02.01` — REST como estilo de API | DSA2, cap. 5; HARD, cap. 13 | Apoyo general a API/contratos; ninguno de estos capítulos cubre REST con profundidad específica. |
+| `CL09.02.02` — RPC y GraphQL | DSA2, cap. 5; HARD, cap. 13 | Apoyo general a API/contratos; falta fuente específica para RPC y GraphQL. |
+| `CL09.02.03` — Selección contextual del estilo de API | DSA2, §§5.2–5.3; HARD, cap. 13 | Diseño API-céntrico y negociación de contratos. |
+| `CL09.03.01` — Evolución y compatibilidad | DSA2, §§5.2–5.3; HARD, cap. 13 | API-céntrico y contratos; la estrategia de compatibilidad/versionado requiere verificarse en la fuente principal Mastering API Architecture. |
+| `CL09.04.01` — Protección del contrato y gestión del tráfico API | MPDP3, cap. 9; DSA2, §3.6; HARD, cap. 7 | Throttling, seguridad y seguridad como factor de granularidad; verificar API gateway en Mastering API Architecture. |
+| `CL09.04.02` — Pruebas y observabilidad específica de API | EPP4, caps. 10, 12; MPDP3, cap. 10 | Automatización de pruebas/calidad, comportamiento/observabilidad y patrones de testing. |
+| `CL10.01.01` — Datos y límites de responsabilidad | HARD, caps. 6, 9; JESA, cap. 8 | Descomposición y propiedad de datos; vínculo con modelo de dominio. |
+| `CL10.02.01` — Modelos y tecnologías de persistencia | HARD, cap. 6 | Drivers de descomposición de datos y selección de tipos de base de datos. |
+| `CL10.03.01` — Transacciones, concurrencia e invariantes de datos | HARD, cap. 9; CC2, §§8.3–8.5 | Transacciones distribuidas y consistencia eventual; CC2 complementa errores, no el diseño de transacciones de datos. |
+| `CL10.04.01` — Compartición, replicación y reconstrucción de datos | HARD, caps. 6, 9–10, 14 | Descomposición, ownership, acceso distribuido y datos analíticos. |
+| `CL10.04.02` — CQRS y event sourcing como patrones de datos | — | Pendiente: los libros listados no presentan un capítulo directo de CQRS/event sourcing; verificar la fuente principal DDD o Software Architecture: The Hard Parts no cubre esos patrones explícitamente. |
+| `CL11.01.01` — Seguridad como preocupación arquitectónica | DSA2, §3.6, apéndice A.8; HARD, cap. 7 | Conceptos/tácticas de seguridad; HARD menciona seguridad como factor de granularidad, no enseña modelado de amenazas. |
+| `CL11.02.01` — Identidad y control de acceso | DSA2, §3.6, apéndice A.8 | Apoyo a tácticas de seguridad; pendiente fuente directa para identidad, OAuth 2.0 y OpenID Connect. |
+| `CL11.03.01` — Objetivos de disponibilidad y degradación del servicio | DSA2, §3.4, apéndice A.1, B.2; HARD, cap. 7 | Conceptos y tácticas de disponibilidad, tolerancia a fallos y granularidad. |
+| `CL11.03.02` — Recuperación, redundancia, errores y atomicidad operativa | HARD, caps. 9, 12; CC2, §§8.3–8.5; DSA2, §§3.4, 6.2 | Sagas/transacciones distribuidas, compensación, manejo de errores y disponibilidad/desplegabilidad. |
+| `CL11.04.01` — Observabilidad y operación | EPP4, cap. 12; PDL, cap. 9 | Observabilidad de aplicaciones Python; para AI serving incluye monitoring, escalabilidad y versionado de modelos (tecnologías del libro son de 2019). |
+| `CL12.01.01` — Fundamentos de arquitectura cloud | DSA2, §§7.1–7.4 | Introducción, drivers y conceptos de diseño cloud. |
+| `CL12.02.01` — Despliegue, releases y migración | DSA2, §§6.1–6.3; HARD, cap. 8 | Diseño para deployability y estrategias de versionado/reuso. |
+| `CL12.03.01` — Evolución y verificación continua | DSA2, §§10.1–10.4; HARD, cap. 1; CC2, §§24.1–24.5 | Deuda/refactorización arquitectónica y fitness functions. |
+| `CL13.01.01` — Fundamentos de AI Engineering | PDL, cap. 1 | Panorama AI, datasets/model architecture y subsecciones Responsible AI, Bias, Accountability and Explainability, Reproducibility, Robustness y Privacy. |
+| `CL13.02.01` — Arquitectura de aplicaciones basadas en modelos | PDL, caps. 8–9 | APIs cloud de visión y arquitectura de serving escalable de inferencia; ejemplos del libro se centran en visión por computadora. |
+| `CL13.03.01` — Evaluación y calidad de sistemas AI | PDL, caps. 5–6, 9 | Experimentos, train/validation/test, métricas y calidad; A/B testing en serving. |
+| `CL13.04.01` — Operación y evolución de aplicaciones AI | PDL, caps. 6, 9 | Rendimiento y serving; escalabilidad, monitoring, disponibilidad, A/B testing y model versioning. Verificar vigencia tecnológica (2019). |
+| `CL14.01.01` — Evaluación sistemática por escenarios | DSA2, §§11.3–11.6; HARD, cap. 15 | Técnicas de análisis, análisis basado en tácticas, scenario-based design reviews y trade-off. |
+| `CL14.02.01` — Comparación económica de alternativas | HARD, cap. 15 | Análisis de trade-offs, pero no basta para CBAM/costeo económico; pendiente fuente económica específica de la ruta. |
+| `CL14.03.01` — Recomendación arquitectónica | DSA2, cap. 11; HARD, cap. 15 | Análisis, preguntas reflexivas, revisiones por escenarios y trade-off. |
+| `CL15.01.01` — Comunicación y documentación | HARD, cap. 1; DSA2, §§4.7, 12.2; OOSE3, cap. 12 | ADR, documentación preliminar, organización y rationale. |
+| `CL15.02.01` — Stakeholders y organización | OOSE3, cap. 3; DSA2, §§1.3, 12.2 | Comunicación/organización del proyecto, rol del arquitecto y contexto organizativo. |
+| `CL15.03.01` — Gobernanza y evolución arquitectónica | HARD, cap. 1; DSA2, cap. 12; CC2, cap. 24 | Fitness functions, ciclo organizacional del diseño y evolución/refactorización. |
+| `CL15.04.01` — Integración profesional | DSA2, caps. 8–9; HARD, cap. 15 | Casos de aplicación, síntesis de análisis y comunicación de trade-offs. |
+
 ## 11. Registro y seguimiento del progreso
 
 El progreso individual se registra en el [`COURSE_STATE`](../Progress/COURSE_STATE.md) y en las evidencias asociadas, no en esta ruta curricular. La normalización de formato no cambia estados, competencias validadas ni posición académica del estudiante.
@@ -890,7 +990,7 @@ El progreso individual se registra en el [`COURSE_STATE`](../Progress/COURSE_STA
 
 - La jerarquía oficial es módulo → submódulo → clase → subclase, con IDs estables.
 - Los prerrequisitos incluyen entradas observables mínimas y resultados esperados por módulo; no equivalen a declarar dominio del estudiante.
-- Las fuentes principales están asignadas por módulo. Las lecturas y secciones específicas deben verificarse al preparar cada clase.
+- Las fuentes principales están asignadas por módulo. El mapa de la sección 10 propone capítulos y subcapítulos complementarios; cada plan de clase debe verificar edición, índice, disponibilidad y páginas exactas antes de asignar una lectura.
 - Los planes de clase, lecturas, ejercicios y evaluaciones se mantienen en artefactos separados y requieren revisión propia.
 - El progreso individual se conserva en [`COURSE_STATE`](../Progress/COURSE_STATE.md) y en las evidencias asociadas; esta ruta no declara ni modifica el estado del estudiante.
 - Antes de impartir una clase, su plan debe indicar competencia, prerrequisitos, objetivos, lectura verificada, actividad, evidencia y criterio de éxito.
