@@ -1,6 +1,6 @@
 ---
 course_id: SAC01
-artifact_id: LP-SAC01-v1.4
+artifact_id: LP-SAC01
 artifact_type: learning_path
 status: STRUCTURE_APPROVED_WITH_DELIVERY_GATES
 language: es
