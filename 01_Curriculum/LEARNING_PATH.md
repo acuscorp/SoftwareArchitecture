@@ -1,18 +1,14 @@
 ---
 course_id: SAC01
-version: 1.4
 artifact_id: LP-SAC01-v1.4
 artifact_type: learning_path
 status: STRUCTURE_APPROVED_WITH_DELIVERY_GATES
 language: es
-supersedes: 1.3
 format_standard: UT-LP-1.0
 revision_scope: CURRICULAR_STRUCTURE_APPROVAL_WITH_DELIVERY_GATES
-content_change: no_content_change_after_v1.3_format_alignment
 change_proposal: SAC01-CP-014
-source_version: 1.3
 ---
-# Ruta curricular v1.4 — Arquitectura de Software
+# Ruta curricular — Arquitectura de Software
 
 > **Alcance de esta revisión:** se aprueba el mapa curricular y la estructura general para planificación, con puertas obligatorias de validación por clase. No se alteran el contenido, los IDs, la jerarquía ni el progreso. La aprobación no certifica planes, lecturas o evaluaciones individuales como listos para impartirse.
 
@@ -30,7 +26,6 @@ source_version: 1.3
 10. [Materiales de referencia](#10-materiales-de-referencia)
 11. [Registro y seguimiento del progreso](#11-registro-y-seguimiento-del-progreso)
 12. [Compatibilidad, migración y decisiones pendientes](#12-compatibilidad-migracion-y-decisiones-pendientes)
-13. [Historial de versiones](#13-historial-de-versiones)
 
 
 ## 1. Propósito y perfil de entrada
@@ -42,9 +37,9 @@ source_version: 1.3
 
 ### Propósito y alcance
 
-Este es el índice maestro del curso. La jerarquía oficial es **Módulo → Submódulo → Clase → Subclase (cuando aplique)**. Los 15 módulos mantienen la correspondencia uno a uno con los 15 bloques de la ruta base v4.0.1. Los submódulos organizan áreas temáticas; cada clase queda delimitada por su título y por una cantidad acotada de subclases (unidades de aprendizaje). El resultado de aprendizaje específico, la actividad y el criterio de evaluación se concretarán en el plan de esa clase.
+Este es el índice maestro del curso. La jerarquía oficial es **Módulo → Submódulo → Clase → Subclase (cuando aplique)**. Los 15 módulos mantienen la correspondencia uno a uno con los 15 bloques de la ruta base. Los submódulos organizan áreas temáticas; cada clase queda delimitada por su título y por una cantidad acotada de subclases (unidades de aprendizaje). El resultado de aprendizaje específico, la actividad y el criterio de evaluación se concretarán en el plan de esa clase.
 
-La v1.2 conserva el contenido curricular de la v1.1, pero estructura las unidades de aprendizaje dentro de las clases y divide algunas unidades que combinaban resultados distintos. La división detallada es una organización curricular derivada de la ruta base, no una transcripción literal de ella. La ruta no declara dominio del estudiante, no contiene explicaciones de clase ni sustituye los planes didácticos.
+La estructura curricular organiza las unidades de aprendizaje dentro de las clases y separa algunas unidades que combinaban resultados distintos. La división detallada es una organización curricular derivada de la ruta base, no una transcripción literal de ella. La ruta no declara dominio del estudiante, no contiene explicaciones de clase ni sustituye los planes didácticos.
 
 **Perfil de entrada:** esta ruta no especifica un perfil de entrada global de forma independiente. No se infiere uno; deberá concretarse mediante diagnóstico o acuerdo de tutoría antes de personalizar la progresión.
 
@@ -57,7 +52,7 @@ Los resultados de salida están especificados por módulo en la tabla de progres
 ### Convenciones de jerarquía e identificadores
 
 - **Módulo `M01`–`M15`:** corresponde al bloque numerado de la ruta anterior.
-- **Submódulo `SM01.01`:** mantiene el número del tema de la v1.1 (por ejemplo, `SM04.05` corresponde al tema 4.5).
+- **Submódulo `SM01.01`:** mantiene la numeración temática (por ejemplo, `SM04.05` corresponde al tema 4.5).
 - **Clase `CL04.05.01`:** identificador estable de la primera clase del submódulo 4.5. Las clases se numeran dentro de cada submódulo.
 - **Subclase `SCL04.05.01.01`:** unidad específica de contenido dentro de una clase. Se crea para hacer explícito el alcance, no necesariamente para impartirse como una sesión independiente.
 - Los antiguos `Subtema x.y.z` pasan a ser subclases numeradas. Los antiguos títulos `Clase x.y` se conservan como referencia histórica en el registro de migración.
@@ -104,7 +99,7 @@ La progresión de competencias sigue **identificar → explicar → justificar �
 
 ## 5. Índice detallado de clases
 
-La jerarquía y los IDs se conservan exactamente como en la fuente v1.2. El resultado específico, la actividad, las lecturas precisas y los criterios/evidencias se definen en el plan de cada clase; este índice no certifica dominio.
+La jerarquía y los IDs se conservan exactamente en el índice. El resultado específico, la actividad, las lecturas precisas y los criterios/evidencias se definen en el plan de cada clase; este índice no certifica dominio.
 
 ### Módulo M01 — Pensamiento arquitectónico y fundamentos
 
@@ -568,7 +563,7 @@ La jerarquía y los IDs se conservan exactamente como en la fuente v1.2. El resu
 ##### Clase CL09.03.01 — Evolución y compatibilidad
 **Referencia anterior:** Clase 9.3 — Evolucionar una API sin romper consumidores innecesariamente.
 
-- **Subclase SCL09.03.01.01:** Versionado.
+- **Subclase SCL09.03.01.01:**.
 - **Subclase SCL09.03.01.02:** Cambios compatibles e incompatibles.
 - **Subclase SCL09.03.01.03:** Estrategias de migración de consumidores.
 
@@ -853,7 +848,7 @@ La jerarquía y los IDs se conservan exactamente como en la fuente v1.2. El resu
 
 ## 7. Proyectos incrementales
 
-La ruta v1.2 no define una sección autónoma de proyectos incrementales. No se añaden proyectos nuevos en esta revisión de formato; cualquier proyecto deberá definirse y evaluarse en el artefacto curricular correspondiente.
+La ruta no define una sección autónoma de proyectos incrementales. No se añaden proyectos nuevos en esta revisión de formato; cualquier proyecto deberá definirse y evaluarse en el artefacto curricular correspondiente.
 
 ## 8. Evaluación y evidencia de dominio
 
@@ -891,65 +886,12 @@ La asignación siguiente procede del mapa de competencias de la ruta base. Es un
 
 El progreso individual se registra en el `COURSE_STATE` y en las evidencias asociadas, no en esta ruta curricular. La normalización de formato no cambia estados, competencias validadas ni posición académica del estudiante.
 
-## 12. Compatibilidad, migración y decisiones pendientes
+## 12. Criterios vigentes y pendientes
 
-### Registro de cambios de la versión fuente v1.1 → v1.2
-
-#### Cambios estructurales aplicados
-
-- Se conserva la correspondencia de los 15 módulos con los 15 bloques de la ruta base v4.0.1.
-- Se vuelve explícita la jerarquía Módulo → Submódulo → Clase → Subclase; cada elemento recibe un ID estable.
-- Los antiguos subtemas se conservan como unidades de alcance, ahora llamadas subclases y subordinadas explícitamente a una clase.
-- Se dividieron los submódulos 1.2, 2.5, 3.3, 4.5, 7.3, 8.1, 9.2, 9.4, 10.4 y 11.3 en clases más enfocadas.
-- Se hicieron explícitas las fronteras entre introducción a vistas (M01) y modelado sistemático (M03); decisión inicial (M02) y evaluación rigurosa (M14); dominio (M06), distribución (M07) y datos (M10); fallos distribuidos (M07) y operación transversal (M11); operación API (M09) y seguridad/observabilidad transversal (M11).
-- Se definieron prerequisitos observables mínimos y resultados de salida por módulo. No equivalen a declarar dominio del estudiante.
-- Se establece una meta de diseño de 60–90 minutos y un criterio para dividir clases que excedan la carga prevista. La duración real se valida al desarrollar cada plan de clase.
-- Se conserva la asignación de fuentes por módulo de la v1.1 sin inventar capítulos. Los capítulos/páginas exactos deben verificarse al preparar cada clase con los libros disponibles.
-
-#### Tabla de migración de identificadores
-
-Los identificadores temáticos antiguos `x.y` siguen apareciendo como alias históricos en las referencias de clase. La clase única anterior de un submódulo se convierte en la primera clase `CLnn.mm.01`; si el submódulo se dividió, las clases siguientes son nuevas unidades curriculares. Los subtemas `x.y.z` se convierten en subclases dentro de la clase que los cubre; sus IDs nuevos aparecen junto a cada subclase. No se modifica el historial/evidencia del estudiante.
-
-| Tema anterior v1.1 | Estructura v1.2 | Motivo |
-|---|---|---|
-| 1.2 | CL01.02.01–CL01.02.02 | Separar estructura/responsabilidades de runtime/vistas introductorias. |
-| 2.5 | CL02.05.01–CL02.05.02 | Separar generación de alternativas de la comparación y registro de decisión. |
-| 3.3 | CL03.03.01–CL03.03.03 | Una clase por tipo de diagrama estructural: clases, componentes y despliegue. |
-| 4.5 | CL04.05.01–CL04.05.03 | Separar diseño de unidades, contratos internos y concurrencia/errores. |
-| 7.3 | CL07.03.01–CL07.03.02 | Separar semántica de consistencia/disponibilidad de coordinación/workflows/sagas. |
-| 8.1 | CL08.01.01–CL08.01.03 | Separar familias con distintas fuerzas: capas/monolito, service-based/SOA y microservicios. |
-| 9.2 | CL09.02.01–CL09.02.03 | Separar familias de estilo API y selección contextual. |
-| 9.4 | CL09.04.01–CL09.04.02 | Separar protección/gestión del tráfico de pruebas/observabilidad. |
-| 10.4 | CL10.04.01–CL10.04.02 | Separar estrategias de propagación de datos de CQRS/event sourcing. |
-| 11.3 | CL11.03.01–CL11.03.02 | Separar objetivos/degradación de recuperación/errores operativos. |
-
-#### Estado de validación
-
-| Elemento | Estado en v1.2 |
-|---|---|
-| Correspondencia de los 15 módulos con la ruta base | Conservada |
-| Jerarquía módulo/submódulo/clase/subclase | Definida con IDs estables |
-| Granularidad de unidades con mayor carga | Dividida selectivamente; duración real por validar |
-| Prerrequisitos | Incluyen entrada observable mínima y salida esperada por módulo |
-| Bibliografía por módulo | Fuentes principales heredadas de v1.1; asignación de capítulos por clase pendiente de verificación |
-| Planes de clase, lecturas, ejercicios y evaluación | Pendientes; se desarrollarán en artefactos separados |
-| Estado de progreso del estudiante | No modificado ni inferido por esta ruta |
-
-## 13. Historial de versiones
-
-### Control de versión
-
-**Estado histórico de v1.2:** versión candidata nueva. La v1.1 y los archivos base/estado del curso permanecen intactos. La clase se considera una unidad de diseño curricular, no una garantía de que el contenido ya haya sido explicado o dominado. Antes de impartir una clase, el plan correspondiente deberá indicar: ID de clase, competencia, entrada, objetivos, lectura verificada, actividad, evidencia, criterio de éxito y duración estimada.
-
-### Registro de la revisión v1.3 — armonización de formato
-
-- Armonización de metadatos y de la secuencia de secciones con `UT-LP-1.0`.
-- Contenido curricular, jerarquía, IDs y evidencia: sin cambios.
-
-### Registro de la revisión v1.4 — dictamen de estructura
-
-- Se aprueba el mapa curricular y su estructura general para planificación, con puertas obligatorias de validación por clase.
-- No se declara que todos los planes, lecturas o rúbricas estén listos para impartirse.
-- Las lecturas no verificadas en contenido permanecen provisionales; cada plan debe pasar `DRAFT → REVIEW → FIX → RE-CHECK → READY`.
-- No se migra progreso individual ni se cambia el estado del estudiante. `CL01-E01` queda `PENDING_REVIEW`; `CL01-M01` permanece `IN_PROGRESS / NOT_EVALUATED`.
-- Dictamen vinculado: `REVIEW-SAC01-ROUTE-v1.0`.
+- La jerarquía oficial es módulo → submódulo → clase → subclase, con IDs estables.
+- Los prerrequisitos incluyen entradas observables mínimas y resultados esperados por módulo; no equivalen a declarar dominio del estudiante.
+- Las fuentes principales están asignadas por módulo. Las lecturas y secciones específicas deben verificarse al preparar cada clase.
+- Los planes de clase, lecturas, ejercicios y evaluaciones se mantienen en artefactos separados y requieren revisión propia.
+- El progreso individual se conserva en `COURSE_STATE` y en las evidencias asociadas; esta ruta no declara ni modifica el estado del estudiante.
+- Antes de impartir una clase, su plan debe indicar competencia, prerrequisitos, objetivos, lectura verificada, actividad, evidencia y criterio de éxito.
+- Cada plan debe pasar `DRAFT → REVIEW → FIX → RE-CHECK → READY`; cualquier corrección material pendiente bloquea su uso.
