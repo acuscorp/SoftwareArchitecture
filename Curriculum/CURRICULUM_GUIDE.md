@@ -80,7 +80,7 @@ La progresión de competencias sigue **identificar → explicar → justificar �
 
 ## 4. Índice de clases, alcances y fronteras
 
-La jerarquía y los IDs se conservan exactamente en la ruta tabular. Cada clase nueva o revisada debe documentarse con los nueve apartados obligatorios de la [plantilla de plan de clase](../Classes/CLASS_PLAN_TEMPLATE.md). Al diseñarla, se consultan y verifican las fuentes de la ruta tabular y de la ruta tabular conforme a las reglas de consulta de fuentes; sus referencias son orientación para el diseño y no lectura obligatoria del estudiante salvo asignación explícita en el plan. Esta guía no certifica dominio.
+La jerarquía y los IDs se conservan exactamente en la ruta tabular. Cada clase nueva o revisada debe documentarse con los nueve apartados obligatorios de la [plantilla de plan de clase](../Classes/CLASS_PLAN_TEMPLATE.md). Al diseñarla, se consultan y verifican las fuentes de la ruta tabular conforme a las reglas de consulta de fuentes; sus referencias son orientación para el diseño y no lectura obligatoria del estudiante salvo asignación explícita en el plan. Esta guía no certifica dominio.
 
 ### Módulo M01 — Pensamiento arquitectónico y fundamentos
 
