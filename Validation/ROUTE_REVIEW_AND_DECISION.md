@@ -11,7 +11,7 @@ review_date: 2026-10-21
 
 ## Decisión
 
-Se aprueba **el mapa curricular y su estructura general** para servir como referencia de planificación, con condiciones de entrega por clase. Esta decisión no certifica el dominio del estudiante, no aprueba automáticamente planes de clase, lecturas o evaluaciones, y no resuelve ni migra evidencias individuales. La [matriz maestra de competencias](../Curriculum/MATRIZ_COMPETENCIAS.md) es la fuente de referencia para Software Architecture y AI Solution Architecture; mantiene `DRAFT — PENDING_REVIEW`.
+Se aprueba **el mapa curricular y su estructura general** para servir como referencia de planificación, con condiciones de entrega por clase. Esta decisión no certifica el dominio del estudiante, no aprueba automáticamente planes de clase, lecturas o evaluaciones, y no resuelve ni migra evidencias individuales. La [matriz maestra de competencias](../MATRIZ_COMPETENCIAS.md) es la fuente de referencia para Software Architecture y AI Solution Architecture; mantiene `DRAFT — PENDING_REVIEW`.
 
 La ruta curricular se revisó conforme al estándar curricular acordado. El dictamen confirma la coherencia estructural básica del mapa: 15 módulos, 63 submódulos, 77 clases y 176 subclases explícitas; los identificadores se conservan. La jerarquía propia de Arquitectura se mantiene.
 

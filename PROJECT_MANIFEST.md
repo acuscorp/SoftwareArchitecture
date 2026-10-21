@@ -13,7 +13,7 @@ Inventario de los artefactos canónicos del curso de Arquitectura de Software. E
 | `GUIA_DE_CLASES.md` | Reglas de generación, jerarquía, prerrequisitos, alcances, fronteras y limitaciones del currículo. | Guía de diseño; no declara las clases aprobadas. |
 | `Classes/CLASS_PLAN_TEMPLATE.md` | Plantilla obligatoria de nueve apartados para preparar planes de clase. | Los planes permanecen en borrador hasta su revisión y validación. |
 | `Classes/M01 - Pensamiento arquitectónico y fundamentos/` | Planes existentes del módulo M01. | Contiene dos planes; ambos permanecen como borradores para revisión. |
-| `Curriculum/MATRIZ_COMPETENCIAS.md` | Matriz maestra para Software Architecture y AI Solution Architecture. | `DRAFT — PENDING_REVIEW`; no se traslada ni se considera aprobada. |
+| `MATRIZ_COMPETENCIAS.md` | Matriz maestra para Software Architecture y AI Solution Architecture. | `DRAFT — PENDING_REVIEW`; no se traslada ni se considera aprobada. |
 | `Assessment/REGISTRO_TRAZABILIDAD_EVIDENCIAS.md` | Registro de trazabilidad de evidencias. | Consultar el estado declarado en el archivo. |
 | `Assessment/RUBRICAS_EVIDENCIAS_RUTA.md` | Rúbricas vinculadas a evidencias de la ruta. | Consultar el estado declarado en el archivo. |
 | `Progress/COURSE_STATE.md` | Estado y seguimiento individual del curso. | Se actualiza solo con evidencia del progreso del estudiante. |

@@ -11,7 +11,7 @@ change_proposal: SAC01-CP-013
 
 ## Estado y uso
 
-Borrador de trabajo derivado de los 12 planes curriculares y de los niveles de la Matriz de Competencias. No constituye una rúbrica aprobada. Los umbrales propuestos permiten revisión, pero deben validarse contra la [matriz maestra de competencias](../Curriculum/MATRIZ_COMPETENCIAS.md), cuyo estado sigue `DRAFT — PENDING_REVIEW`, y con una aplicación piloto. No se ha evaluado ninguna evidencia del estudiante con este documento.
+Borrador de trabajo derivado de los 12 planes curriculares y de los niveles de la Matriz de Competencias. No constituye una rúbrica aprobada. Los umbrales propuestos permiten revisión, pero deben validarse contra la [matriz maestra de competencias](../MATRIZ_COMPETENCIAS.md), cuyo estado sigue `DRAFT — PENDING_REVIEW`, y con una aplicación piloto. No se ha evaluado ninguna evidencia del estudiante con este documento.
 
 ## Escala común propuesta
 

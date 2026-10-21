@@ -18,7 +18,7 @@
 
 - `course_id`: `SAC01`
 - Este identificador establece la identidad del curso; no implica por sí solo aprobación curricular ni migración del progreso.
-- La [matriz maestra de competencias](Curriculum/MATRIZ_COMPETENCIAS.md) es la fuente de referencia para Software Architecture y AI Solution Architecture. Conserva el estado `DRAFT — PENDING_REVIEW`; este vínculo no la aprueba.
+- La [matriz maestra de competencias](MATRIZ_COMPETENCIAS.md) es la fuente de referencia para Software Architecture y AI Solution Architecture. Conserva el estado `DRAFT — PENDING_REVIEW`; este vínculo no la aprueba.
 
 ### Propósito y alcance
 
