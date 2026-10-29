@@ -1,8 +1,8 @@
 ---
 artifact_id: COMPETENCY_MATRIX_SOFTWARE_AND_AI_ARCHITECTURE
 artifact_type: COMPETENCY_MATRIX
-status: DRAFT
-approval_status: PENDING_REVIEW
+status: FINAL
+approval_status: APPROVED
 scope:
   - Software Architecture
   - AI Solution Architecture
@@ -19,7 +19,7 @@ Esta matriz define las competencias que debe desarrollar y demostrar una persona
 
 La matriz es la fuente de referencia para definir resultados de aprendizaje, alinear clases y diseñar criterios de evaluación. No sustituye la ruta curricular, los planes de clase, las rúbricas ni el registro de evidencias.
 
-**Estado:** borrador de trabajo. La inclusión en el repositorio no significa que las competencias, su cobertura curricular o sus criterios hayan sido aprobados.
+**Estado:** versión final aprobada por el responsable del curso para servir como matriz maestra de referencia. La aprobación establece la línea base curricular; no certifica por sí misma el dominio de estudiantes ni impide revisiones futuras versionadas.
 
 ## 2. Principios de diseño
 
@@ -157,19 +157,23 @@ Cada plan de clase debe declarar:
 
 El registro de trazabilidad debe relacionar clase, competencia, criterio, evidencia y estado de revisión. Las rúbricas deben concretar los criterios en indicadores observables y umbrales adecuados al objetivo. Estos documentos deben referenciar esta matriz, no redefinir las competencias por separado.
 
-## 10. Decisiones pendientes antes de aprobar
+## 10. Mejoras futuras y control de cambios
 
-- Verificar que C01–C18 y sus asignaciones siguen alineadas con la ruta curricular activa.
-- Confirmar si AI01–AI10 tienen la granularidad correcta o si algunas deben dividirse o combinarse.
-- Revisar que las competencias específicas de IA cubran las necesidades del curso sin imponer tecnologías particulares.
-- Definir niveles mínimos esperados por competencia y por etapa curricular; no exigir automáticamente APLICAR en todas las clases.
-- Alinear los criterios específicos y las rúbricas con la matriz.
-- Revisar la trazabilidad de los planes de clase existentes y retirar enlaces a identificadores o evidencias históricas que ya no sean válidos.
-- Confirmar el nombre canónico del curso y la estructura de carpetas del repositorio.
-- Realizar una revisión curricular y una prueba piloto de evaluación antes de cambiar el estado a aprobado.
+La matriz se encuentra aprobada como línea base curricular. Los siguientes puntos son oportunidades de mejora continua, no bloqueos para su estado FINAL:
+
+- Verificar periódicamente que C01–C18 y sus asignaciones sigan alineadas con la ruta curricular activa.
+- Revisar con evidencia de uso si AI01–AI10 tienen la granularidad adecuada o si alguna competencia debe dividirse o combinarse.
+- Comprobar que las competencias específicas de IA cubran las necesidades del curso sin imponer tecnologías particulares.
+- Precisar, cuando se diseñen evaluaciones concretas, los niveles mínimos esperados por competencia y etapa curricular; no exigir automáticamente APLICAR en todas las clases.
+- Alinear los criterios específicos y las rúbricas de cada clase con esta matriz.
+- Revisar la trazabilidad de los planes de clase y corregir enlaces a identificadores o evidencias históricas que dejen de ser válidos.
+- Mantener coherentes el nombre canónico del curso y la estructura de carpetas del repositorio.
+- Usar pruebas piloto de evaluación para informar futuras revisiones, sin invalidar esta aprobación inicial.
+
+Cualquier cambio sustantivo deberá realizarse mediante una modificación versionada, con su justificación y trazabilidad en Git.
 
 ## 11. Estado del documento
 
-**Estado actual:** DRAFT — PENDING_REVIEW.
+**Estado actual:** FINAL — APPROVED.
 
-Este archivo establece una base de trabajo unificada; no declara aprobadas las competencias nuevas ni certifica el dominio de ninguna persona. Los cambios futuros se registrarán mediante el historial de Git.
+La matriz maestra queda aprobada como referencia curricular para alinear rutas de aprendizaje, clases, criterios, rúbricas y evidencias. Esta aprobación no acredita el dominio de ninguna persona ni elimina la posibilidad de corregir o ampliar la matriz mediante futuras versiones revisadas. Los cambios se registrarán en el historial de Git.
