@@ -1,8 +1,10 @@
 # Ruta curricular — Arquitectura de Software
 
-El mapeo de competencias y niveles de esta tabla es una **propuesta** basada en los resultados curriculares por módulo, los alcances de clase conservados en el historial y los planes disponibles. La [matriz maestra](MATRIZ_COMPETENCIAS.md) sigue `DRAFT — PENDING_REVIEW`.
+El mapeo de competencias y niveles de esta tabla es una **propuesta** basada en los resultados curriculares por módulo, los alcances de clase conservados en el historial y los planes disponibles. La [matriz maestra](MATRIZ_COMPETENCIAS.md) está `FINAL / APPROVED` como referencia de competencias; esta aprobación no convierte automáticamente en finales el mapeo de cada clase, sus lecturas ni sus evidencias.
 
-Cada clase tiene una competencia principal. **Nivel esperado** indica el nivel más alto propuesto al terminar esa clase; no acredita dominio. El plan de clase debe confirmar el nivel mediante su resultado, actividad, evidencia y criterios. Si al preparar el plan no hay sustento suficiente para la asignación, debe quedar pendiente de revisión.
+Cada clase tiene una competencia principal. **Nivel esperado** indica el desempeño propuesto para el alcance de esa clase; no acredita dominio global ni obliga a una progresión estrictamente creciente entre clases que introducen subalcances distintos. El plan de clase debe confirmar el nivel mediante su resultado, actividad, evidencia y criterios. Cuando una misma competencia aparezca con un nivel menor después de uno mayor, el plan posterior debe declarar explícitamente el subalcance nuevo que justifica esa secuencia; si no lo hace, el mapeo queda pendiente de revisión.
+
+**Validación de progresión pendiente:** las secuencias no monotónicas de una misma competencia (incluidas C02 en M01, C05, C12, C13, C17 y C18) no se reinterpretan ni se renivelan automáticamente. Requieren contraste con los planes de clase y una decisión curricular registrada antes de cambiar sus niveles propuestos.
 
 Las competencias específicas `AI01`–`AI10` continúan propuestas y sin mapeo individual a clases; la ruta actual solo vincula el bloque M13 con `C16`.
 
