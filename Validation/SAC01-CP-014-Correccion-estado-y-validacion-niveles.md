@@ -2,9 +2,9 @@
 course_id: SAC01
 artifact_id: SAC01-CP-014
 artifact_type: curricular_change_record
-status: PROPOSED
-approval_authority: PENDING
-approval_context: requires_explicit_change_approval
+status: APPLIED
+approval_authority: user
+approval_context: merged_pull_request_3
 current_course_version: NOT_DECLARED
 proposed_course_version: NOT_ASSIGNED
 change_date: 2026-11-05
@@ -12,11 +12,11 @@ change_date: 2026-11-05
 
 # SAC01-CP-014 — Corrección de estado y validación de niveles propuestos
 
-## Propuesta pendiente de aprobación
+## Cambio aplicado
 
-Se propone corregir la referencia desactualizada de `LEARNING_PATH.md`: la matriz maestra está `FINAL / APPROVED`, no `DRAFT — PENDING_REVIEW`.
+Se corrigió la referencia desactualizada de `LEARNING_PATH.md`: la matriz maestra está `FINAL / APPROVED`, no `DRAFT — PENDING_REVIEW`.
 
-Se propone aclarar que el nivel esperado es un desempeño propuesto para el alcance de cada clase, no una certificación de dominio global ni una secuencia obligatoriamente ascendente cuando se introduce un subalcance distinto.
+Se aclaró que el nivel esperado es un desempeño propuesto para el alcance de cada clase, no una certificación de dominio global ni una secuencia obligatoriamente ascendente cuando se introduce un subalcance distinto.
 
 ## Evidencia y justificación
 
@@ -24,7 +24,7 @@ Se propone aclarar que el nivel esperado es un desempeño propuesto para el alca
 - `LEARNING_PATH.md` conservaba una referencia contradictoria a matriz pendiente.
 - La revisión de la ruta identifica secuencias de una misma competencia con niveles no monotónicos: C02 en M01, C05, C12, C13, C17 y C18. Los títulos y el mapeo disponibles no bastan para cambiar esos valores sin revisar los planes concretos.
 
-## Cambio propuesto
+## Cambio aplicado
 
 | Artefacto | Antes | Después |
 |---|---|---|
@@ -44,7 +44,7 @@ No hay migración: no se modifica evidencia, evaluación o estado individual. Lo
 
 ## Estado y seguimiento requerido
 
-La ruta canónica no se modificó. La propuesta requiere aprobación explícita y posterior validación antes de aplicarse.
+El pull request #3 fue combinado en `main`. La validación de niveles individuales continúa pendiente según el alcance de esta propuesta.
 
 ## Seguimiento requerido
 
