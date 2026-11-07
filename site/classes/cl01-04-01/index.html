@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4f1ea">
+<title>Contexto y participantes · SAC01</title>
+<style>
+:root{--paper:#f4f1ea;--ink:#202521;--muted:#68716a;--line:#d9ddd5;--green:#315b49;--lime:#d8e7a8;--white:#fffefa;--rust:#a34e36}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--green)}button{font:inherit;cursor:pointer}.top{position:sticky;top:0;z-index:5;background:#f4f1eaeF;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.topin{max-width:1200px;margin:auto;padding:12px 22px;display:flex;justify-content:space-between;align-items:center;gap:18px}.brand{font-size:.76rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--green)}.progress{height:3px;background:var(--line)}.progress span{display:block;height:100%;width:0;background:var(--green);transition:width .2s}
+.layout{max-width:1200px;margin:auto;display:grid;grid-template-columns:240px minmax(0,1fr);gap:clamp(28px,5vw,76px);padding:42px 24px}
+aside{position:sticky;top:82px;align-self:start}aside nav{display:grid;gap:5px}aside a{padding:8px 12px;text-decoration:none;color:var(--muted);border-left:2px solid transparent;font-size:.91rem}aside a.active{color:var(--green);border-color:var(--green);font-weight:750}
+main{min-width:0;max-width:820px}.eyebrow{font-size:.74rem;letter-spacing:.15em;text-transform:uppercase;color:var(--green);font-weight:800}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.035em;line-height:1.12}h1{font-size:clamp(3rem,7vw,6rem);margin:20px 0}h2{font-size:clamp(2rem,4vw,3.1rem);margin:0 0 20px}h3{font-size:1.55rem;margin:28px 0 10px}
+.lede{font:1.25rem/1.55 Georgia,serif;color:#4e5b51;max-width:680px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0}.pill{border:1px solid var(--line);padding:5px 10px;border-radius:99px;color:var(--muted);font-size:.78rem}
+section{padding:70px 0 24px;border-top:1px solid var(--line);scroll-margin-top:80px}.section-no{color:var(--rust);font-size:.75rem;font-weight:800;letter-spacing:.12em}
+p{max-width:740px}.muted{color:var(--muted)}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:22px 0}
+.panel{background:var(--white);border:1px solid var(--line);padding:20px;border-radius:5px}.panel h3{margin:0 0 8px}.panel p:last-child{margin-bottom:0}
+.callout{border-left:3px solid var(--green);padding:14px 18px;background:#e8ecdf;margin:22px 0}
+table{width:100%;border-collapse:collapse;margin:22px 0;background:var(--white);font-size:.92rem}th,td{text-align:left;padding:12px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--green);font-size:.76rem;text-transform:uppercase;letter-spacing:.08em}
+.steps{counter-reset:step;list-style:none;padding:0}.steps li{counter-increment:step;padding:13px 0 13px 48px;position:relative;border-bottom:1px solid var(--line)}.steps li:before{content:counter(step,decimal-leading-zero);position:absolute;left:0;color:var(--rust);font-weight:800}
+.choice{display:block;width:100%;text-align:left;padding:15px 17px;margin:10px 0;background:var(--white);border:1px solid var(--line);border-radius:4px;color:var(--ink)}.choice:hover,.choice.selected{border-color:var(--green);background:#e8ecdf}.feedback{padding:14px 16px;margin-top:12px;background:#e8ecdf;border-radius:4px;display:none}.feedback.show{display:block}
+.question{margin:24px 0;padding:22px;background:var(--white);border:1px solid var(--line)}.question strong{display:block;margin-bottom:10px}
+footer{padding:34px 0 70px;color:var(--muted);font-size:.88rem}
+@media(max-width:800px){.layout{grid-template-columns:1fr;padding-top:24px}aside{position:relative;top:auto;overflow:auto}aside nav{display:flex;gap:4px;min-width:max-content}aside a{border-left:0;border-bottom:2px solid transparent}aside a.active{border-bottom-color:var(--green)}}
+@media(max-width:560px){.grid2{grid-template-columns:1fr}.topin{padding:10px 16px}.layout{padding-left:18px;padding-right:18px}section{padding-top:52px}table{font-size:.82rem}th,td{padding:9px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="topin"><div class="brand">SAC01 / Aula de arquitectura</div><a href="../../">Índice del curso ↗</a></div><div class="progress"><span id="progress"></span></div></header>
+<div class="layout">
+<aside><div class="eyebrow">En esta clase</div><nav id="nav">
+<a href="#inicio" class="active">Introducción</a><a href="#participantes">Participantes</a><a href="#contextos">Los cuatro contextos</a><a href="#impacto">Impacto arquitectónico</a><a href="#metodo">Método de justificación</a><a href="#caso">Caso guiado</a><a href="#comprueba">Comprueba lo aprendido</a><a href="#evidencia">Evidencia</a>
+</nav></aside>
+<main>
+<div id="inicio">
+<div class="eyebrow">Módulo 01 · CL01.04.01 · Nivel: justificar</div>
+<h1>Contexto y participantes</h1>
+<p class="lede">Una decisión no tiene impacto arquitectónico por ser grande, compleja o estar escrita en código. Lo tiene por las consecuencias que introduce, las responsabilidades que modifica y las partes que deben adaptarse.</p>
+<div class="meta"><span class="pill">165 minutos</span><span class="pill">Competencia C02</span><span class="pill">Aprobada para piloto</span></div>
+<div class="callout"><strong>Pregunta guía</strong><br>¿Cómo justificamos que una decisión tiene impacto arquitectónico —o es local— considerando a quién afecta y en qué contexto?</div>
+<p>El objetivo es construir una justificación defendible. Identificar participantes no basta: necesitamos comprender sus preocupaciones, situarlas en contexto y seguir el radio de impacto de la decisión.</p>
+</div>
+<section id="participantes"><div class="section-no">01 / PARTICIPANTES</div><h2>¿A quién afecta la decisión?</h2>
+<p>Un <strong>stakeholder</strong> es una persona, grupo u organización que tiene interés o participación en el éxito del sistema, o que puede verse afectado por él. Puede ser cliente, usuario, desarrollador, responsable de proyecto, mantenedor u otro grupo pertinente.</p>
+<div class="grid2"><article class="panel"><h3>Rol</h3><p>La función o responsabilidad que alguien desempeña respecto al sistema. Una persona puede tener varios roles y un rol puede corresponder a varias personas.</p></article><article class="panel"><h3>Preocupación</h3><p>Algo que importa a un participante: una necesidad, riesgo, objetivo, obligación o criterio que el sistema debe considerar.</p></article></div>
+<h3>De etiquetas vagas a preocupaciones concretas</h3>
+<table><thead><tr><th>Vago</th><th>Concreto</th></tr></thead><tbody><tr><td>«Seguridad»</td><td>El área responsable necesita reconstruir quién consultó un resultado y en qué momento.</td></tr><tr><td>«Rendimiento»</td><td>El profesional necesita consultar resultados disponibles sin que una demora del portal interrumpa su flujo de trabajo.</td></tr></tbody></table>
+<div class="callout">Una preocupación no prescribe por sí sola una solución. Puede atenderse mediante una decisión arquitectónica, una decisión local, una política o un procedimiento operativo.</div>
+</section>
+<section id="contextos"><div class="section-no">02 / CONTEXTOS</div><h2>La decisión nunca ocurre en el vacío</h2>
+<p>Bass, Clements y Kazman describen cuatro contextos en <em>Software Architecture in Practice</em>, tercera edición. Son perspectivas relacionadas, no compartimentos independientes.</p>
+<div class="grid2">
+<article class="panel"><div class="eyebrow">A · §3.1</div><h3>Contexto técnico</h3><p>Entorno técnico, sistemas existentes, plataformas, tecnologías, interfaces y restricciones. También considera cómo la arquitectura habilita o inhibe atributos de calidad.</p><p class="muted">Pregunta: ¿qué sistemas, interfaces o restricciones técnicas condicionan la decisión?</p></article>
+<article class="panel"><div class="eyebrow">B · §3.2</div><h3>Ciclo de vida del proyecto</h3><p>Procesos y condiciones del proyecto: cómo se desarrolla, organiza, financia, entrega y evoluciona el trabajo, incluidos recursos y restricciones.</p><p class="muted">Pregunta: ¿qué procesos, etapas, recursos o condiciones del proyecto influyen?</p></article>
+<article class="panel"><div class="eyebrow">C · §3.3</div><h3>Contexto de negocio</h3><p>Objetivos, organizaciones involucradas, condiciones económicas, inversiones, recursos y estructura organizacional.</p><p class="muted">Pregunta: ¿qué objetivos, intereses, autoridad o recursos están en juego?</p></article>
+<article class="panel"><div class="eyebrow">D · §3.4</div><h3>Contexto profesional</h3><p>Práctica del arquitecto: deberes, habilidades, conocimientos, experiencia, comunicación, negociación y criterio profesional.</p><p class="muted">Pregunta: ¿qué responsabilidades y capacidades profesionales requiere la decisión?</p></article>
+</div>
+<div class="callout"><strong>Precisión importante:</strong> la estructura organizacional forma parte del contexto de negocio; no es un quinto contexto. Soporte, mantenimiento y recuperación pueden analizarse como consecuencias operativas, pero tampoco son un quinto contexto formal.</div>
+</section>
+<section id="impacto"><div class="section-no">03 / IMPACTO</div><h2>¿Cuándo una decisión es arquitectónica?</h2>
+<p>La clasificación depende de lo que la decisión condiciona y del alcance de sus consecuencias, no del tamaño del cambio, del lenguaje utilizado ni de si se implementa en código.</p>
+<div class="grid2"><article class="panel"><h3>Local</h3><p>Resuelve un detalle interno y delimitado, sin imponer restricciones relevantes fuera de su ámbito.</p></article><article class="panel"><h3>Arquitectónica</h3><p>Introduce consecuencias significativas en estructura, límites, contratos, dependencias, atributos de calidad o equipos/capacidades que deben adaptarse.</p></article></div>
+<h3>Indicadores que debes investigar</h3>
+<ul><li>¿Cambia límites, responsabilidades o relaciones entre partes?</li><li>¿Establece o modifica contratos consumidos por otros componentes o sistemas?</li><li>¿Introduce dependencias que condicionan varios equipos o capacidades?</li><li>¿Determina cómo se gestionan fallos en una interacción relevante?</li><li>¿Condiciona atributos de calidad importantes?</li><li>¿Modifica significativamente operación, mantenimiento o evolución?</li><li>¿Obliga a otros equipos o sistemas a adaptarse?</li></ul>
+<div class="callout"><strong>Condicional al contexto:</strong> si faltan datos que pueden cambiar el alcance real, declara qué condición falta. Una biblioteca puede ser local si queda encapsulada en un módulo, pero adquirir impacto arquitectónico si se convierte en dependencia obligatoria de varios equipos.</div>
+<p><strong>Clasificar impacto no equivale a evaluar conveniencia.</strong> Una decisión puede ser arquitectónica y aun así ser una mala elección.</p>
+</section>
+<section id="metodo"><div class="section-no">04 / MÉTODO</div><h2>Siete pasos para justificar</h2>
+<ol class="steps"><li><strong>Formular la decisión.</strong> Describe qué se elige o cambia, sin nombrar solamente una tecnología.</li><li><strong>Identificar participantes.</strong> Incluye a quienes reciben consecuencias directas o indirectas.</li><li><strong>Precisar preocupaciones.</strong> Formula qué necesita cada participante y dónde puede existir tensión.</li><li><strong>Situar el contexto.</strong> Considera los contextos pertinentes; separa hechos, inferencias y supuestos.</li><li><strong>Determinar el radio de impacto.</strong> Identifica límites, contratos, dependencias, atributos de calidad, equipos y procesos afectados.</li><li><strong>Contrastar la clasificación.</strong> Explica por qué el impacto es arquitectónico o local; si depende de información ausente, formula la condición.</li><li><strong>Defender la conclusión.</strong> Presenta consecuencias relevantes, una limitación y la evidencia que podría modificar tu juicio.</li></ol>
+<h3>No confundas hechos, inferencias y supuestos</h3>
+<table><thead><tr><th>Afirmación</th><th>Tipo</th><th>Por qué</th></tr></thead><tbody><tr><td>El portal consulta un sistema externo de agenda.</td><td>Hecho</td><td>Está expresamente indicado en el escenario.</td></tr><tr><td>Una respuesta tardía puede dejar al portal sin confirmación inmediata.</td><td>Inferencia</td><td>Se deriva de la posibilidad de demora; no describe una frecuencia medida.</td></tr><tr><td>El sistema externo permite consultar posteriormente el estado.</td><td>Supuesto</td><td>El escenario no confirma esa capacidad.</td></tr></tbody></table>
+</section>
+<section id="caso"><div class="section-no">05 / CASO GUIADO</div><h2>Gestión de turnos clínicos</h2>
+<p>Una clínica permite solicitar turnos desde un portal web. El portal consulta un sistema existente llamado <strong>Agenda médica</strong>. La clínica quiere evitar duplicaciones y comunicar con claridad el estado de cada solicitud.</p>
+<p class="muted">No se especifican protocolo de integración, disponibilidad, volumen, garantías de respuesta ni reglas completas de confirmación. No inventes esos datos.</p>
+<table><thead><tr><th>Participante</th><th>Preocupación</th></tr></thead><tbody><tr><td>Paciente</td><td>Saber si la solicitud fue recibida y si el turno está confirmado.</td></tr><tr><td>Personal administrativo</td><td>Resolver solicitudes pendientes y evitar duplicaciones.</td></tr><tr><td>Dirección</td><td>Mantener una atención adecuada dentro de los recursos disponibles.</td></tr><tr><td>Desarrollo</td><td>Integrar el portal con Agenda médica.</td></tr><tr><td>Soporte</td><td>Investigar solicitudes cuyo resultado no está claro.</td></tr></tbody></table>
+<h3>Decisión a clasificar</h3><p>¿Cómo debe organizarse la responsabilidad de gestionar una solicitud cuando Agenda médica no devuelve una respuesta concluyente?</p>
+<div class="grid2"><article class="panel"><div class="eyebrow">Opción A</div><h3>Confirmación concluyente</h3><p>El portal solo comunica confirmación después de recibir una respuesta concluyente de Agenda médica. Debe definirse qué comunica mientras espera.</p></article><article class="panel"><div class="eyebrow">Opción B</div><h3>Recepción pendiente</h3><p>El portal registra la recepción con estado pendiente y comunica la confirmación solo después de resolverla con Agenda médica. Requiere definir cómo se identifican, consultan y resuelven solicitudes pendientes.</p></article></div>
+<div class="callout">No hay una opción universalmente superior. Analiza si se establecen estados y responsabilidades compartidos, si cambian contratos entre sistemas y si soporte o administración deben adoptar procesos nuevos.</div>
+</section>
+<section id="comprueba"><div class="section-no">06 / COMPROBACIÓN</div><h2>Comprueba lo aprendido</h2>
+<p>Selecciona una respuesta por pregunta. Recibirás retroalimentación inmediata.</p>
+<div class="question" data-answer="b"><strong>1. ¿Qué distingue una preocupación de una solución?</strong><button class="choice" data-choice="a">La preocupación describe una tecnología concreta que debe implementarse.</button><button class="choice" data-choice="b">La preocupación expresa algo que importa al participante, sin prescribir necesariamente cómo resolverlo.</button><button class="choice" data-choice="c">Son términos equivalentes.</button><div class="feedback" data-feedback></div></div>
+<div class="question" data-answer="c"><strong>2. En la tercera edición de Bass et al., ¿dónde se ubica la estructura organizacional?</strong><button class="choice" data-choice="a">En un quinto contexto independiente.</button><button class="choice" data-choice="b">En el contexto profesional.</button><button class="choice" data-choice="c">En el contexto de negocio.</button><div class="feedback" data-feedback></div></div>
+<div class="question" data-answer="a"><strong>3. ¿Qué justifica mejor que una decisión tenga impacto arquitectónico?</strong><button class="choice" data-choice="a">Que modifica un contrato compartido y obliga a otros componentes o equipos a adaptarse.</button><button class="choice" data-choice="b">Que requiere muchas líneas de código.</button><button class="choice" data-choice="c">Que utiliza una tecnología nueva.</button><div class="feedback" data-feedback></div></div>
+<div class="question" data-answer="b"><strong>4. Si falta información que puede cambiar el alcance de la decisión, ¿qué corresponde?</strong><button class="choice" data-choice="a">Elegir la clasificación más probable y ocultar la incertidumbre.</button><button class="choice" data-choice="b">Declarar una clasificación condicional y especificar qué evidencia falta.</button><button class="choice" data-choice="c">Clasificarla automáticamente como local.</button><div class="feedback" data-feedback></div></div>
+<div id="score" class="callout" aria-live="polite">Responde las cuatro preguntas para revisar tu resultado.</div>
+</section>
+<section id="evidencia"><div class="section-no">07 / EVIDENCIA INDEPENDIENTE</div><h2>Informe: resultados de laboratorio</h2>
+<p>Un laboratorio quiere que los resultados estén disponibles mediante un portal. El portal obtiene la información de un sistema de laboratorio existente. Los profesionales de salud necesitan consultar ciertos resultados antes de que estén disponibles para pacientes. El área responsable de cumplimiento necesita investigar incidentes de acceso. Soporte recibe reportes de resultados que no aparecen en el portal.</p>
+<div class="callout">El escenario no especifica legislación, infraestructura, protocolo de integración, volumen, SLA ni capacidades del sistema existente. No inventes esos datos; identifica toda hipótesis como supuesto por validar.</div>
+<h3>Entregable · EV-SAC01-CL01.04.01-01</h3>
+<p>Informe individual de <strong>900–1,100 palabras</strong> con:</p>
+<ol><li>Decisión delimitada y su alcance.</li><li>Al menos cuatro participantes, roles y preocupaciones.</li><li>Al menos tres datos contextuales, distinguiendo hechos, inferencias y supuestos.</li><li>Clasificación: arquitectónica, local o condicional.</li><li>Radio de impacto y al menos dos consecuencias para participantes.</li><li>Contraste mínimo con una alternativa o condición distinta.</li><li>Una desventaja, incertidumbre y pregunta abierta que podría cambiar la clasificación.</li></ol>
+<h3>Cómo se evaluará</h3>
+<table><thead><tr><th>Criterio</th><th>Peso</th></tr></thead><tbody><tr><td>Participantes, roles y preocupaciones</td><td>15 %</td></tr><tr><td>Análisis contextual y calidad de evidencia</td><td>20 %</td></tr><tr><td>Clasificación y justificación del impacto</td><td><strong>35 %</strong></td></tr><tr><td>Consecuencias, contraste, riesgos e incertidumbre</td><td>30 %</td></tr></tbody></table>
+<p>Umbral sugerido: 70/100. Una entrega no se considera competente si obtiene nivel 1 en el criterio central de clasificación y justificación, aunque alcance 70 puntos por suma.</p>
+<p><a href="https://github.com/acuscorp/SoftwareArchitecture/blob/main/Classes/M01%20-%20Pensamiento%20arquitect%C3%B3nico%20y%20fundamentos/CL01.04.01%20-%20Contexto%20y%20participantes.md" target="_blank" rel="noopener">Consultar artefacto curricular oficial en GitHub ↗</a></p>
+</section>
+<footer>Fuente principal: Bass, L., Clements, P. y Kazman, R. (2012). <em>Software Architecture in Practice</em>, 3.ª ed., capítulos 2–3. Esta página es una vista didáctica complementaria; el Markdown del repositorio es el artefacto curricular de referencia.<br><br><a href="../../">← Volver al índice del curso</a></footer>
+</main></div>
+<script>
+const sections=[...document.querySelectorAll('main section, #inicio')], links=[...document.querySelectorAll('#nav a')], bar=document.getElementById('progress');
+function update(){const max=document.documentElement.scrollHeight-innerHeight;bar.style.width=(max>0?scrollY/max*100:0)+'%';let current=sections[0].id;for(const s of sections){if(s.getBoundingClientRect().top<180)current=s.id;}links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+current));}
+addEventListener('scroll',update,{passive:true});update();
+let answered=0,correct=0;
+document.querySelectorAll('.question').forEach(q=>{q.querySelectorAll('.choice').forEach(b=>b.addEventListener('click',()=>{if(q.dataset.done)return;q.dataset.done='1';answered++;const ok=b.dataset.choice===q.dataset.answer;if(ok)correct++;q.querySelectorAll('.choice').forEach(x=>{x.disabled=true;if(x.dataset.choice===q.dataset.answer)x.classList.add('selected')});const f=q.querySelector('[data-feedback]');f.textContent=ok?'Correcto. '+({b:'Una preocupación expresa una necesidad o criterio; no determina automáticamente una solución.',c:'La estructura organizacional forma parte del contexto de negocio en la tercera edición.',a:'El contrato compartido y la adaptación de otros componentes/equipos muestran un radio de impacto más amplio.'}[q.dataset.answer]):'No es la mejor respuesta. La opción correcta está marcada; revisa la explicación de esta sección.';f.classList.add('show');document.getElementById('score').textContent=answered<4?'Respondidas: '+answered+'/4 · Aciertos: '+correct:'Resultado formativo: '+correct+'/4. '+(correct===4?'Buen trabajo.':'Revisa las secciones indicadas y vuelve a explicar por qué la opción correcta es más sólida.');}));});
+</script>
+</body></html>
